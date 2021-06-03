@@ -587,7 +587,7 @@
    <property name="Stars" value="1"/>
    <property name="Text" value="Once per game, when one of your [Melee] characters takes damage from your cards [THEN] You may put this on that character.  When the character this is on takes damage from one of your cards [THEN] Put a conditioning counter on this. Then if this has three or more conditioning counters, flip this."/>
    <alternate type="back" name="Brutal Conditioning" size="Small">
-    <property name="Type" value="Stratagem"/>
+    <property name="Type" value="Stratagem - back"/>
     <property name="ATK" value="2"/>
     <property name="HP" value="2"/>
     <property name="DEF" value="2"/>
@@ -1180,7 +1180,7 @@
    <property name="Stars" value="1"/>
    <property name="Text" value="When your Ramjet, Sky Smasher is upgraded with an Armor and defends while in alt mode [THEN] Flip him to bot mode.  When your Ramjet, Sky Smasher is upgraded with a Weapon and attacks while in bot mode [THEN] Flip him to alt mode."/>
    <alternate type="back" name="Brace For Impact" size="Small">
-    <property name="Type" value="Stratagem"/>
+    <property name="Type" value="Stratagem - back"/>
     <property name="DEF" value="1"/>
    </alternate>
    <property name="Rarity" value="Uncommon"/>
@@ -1298,7 +1298,7 @@
    <property name="Stars" value="1"/>
    <property name="Text" value="If your starting team has only two characters [THEN] Each of your characters has an additional Armor slot.  During the main phase of your turn [THEN] You may put an Armor from your scrap pile or KO area onto one of your characters. If you do, flip this."/>
    <alternate type="back" name="Stuck On You" size="Small">
-    <property name="Type" value="Stratagem"/>
+    <property name="Type" value="Stratagem - back"/>
     <property name="Text" value="When you have only two characters on your starting team [THEN] Both characters have an additional Armor slot."/>
    </alternate>
    <property name="Rarity" value="Common"/>
@@ -1326,7 +1326,7 @@
    <property name="Stars" value="3"/>
    <property name="Text" value="When your Autobot Powerglide, Haughty Showoff takes damage from an opponent's card or has one or more damage counters moved onto him from an opponent's card [THEN] Put a thermal counter on this.  When a character upgraded with your S2 Thermal Reciprocator does attack damage [THEN] You may remove one or more thermal counters from this. If you do, do damage to the defender equal to the number of thermal counters removed."/>
    <alternate type="back" name="Thermal Reciprocation" size="Small">
-    <property name="Type" value="Stratagem"/>
+    <property name="Type" value="Stratagem - back"/>
     <property name="ATK" value="1"/>
     <property name="HP" value="5"/>
    </alternate>
@@ -1347,7 +1347,7 @@
    <property name="Stars" value="3"/>
    <property name="Text" value="Your Shockblast, Galactic Man is a [Mercenary] instead of a [Decepticon].  Remove the text “is a Mercenary and” from your Astro Magnum."/>
    <alternate type="back" name="This Gun For Hire" size="Small">
-    <property name="Type" value="Stratagem"/>
+    <property name="Type" value="Stratagem - back"/>
     <property name="ATK" value="1"/>
     <property name="HP" value="4"/>
    </alternate>
@@ -1374,7 +1374,7 @@
    <property name="Stars" value="1"/>
    <property name="Text" value="When your Raider Ravage, Espionage · Saboteur is untapped in alt mode and one of your other characters defends [THEN] You may tap Ravage. If you do, the defender gets +[DEF] until end of turn equal to Ravage’s [DEF] total."/>
    <alternate type="back" name="V2 Sonicsurge Drone Armor" size="Small">
-    <property name="Type" value="Stratagem"/>
+    <property name="Type" value="Stratagem - back"/>
     <property name="HP" value="2"/>
    </alternate>
    <property name="Rarity" value="Uncommon"/>
@@ -1385,7 +1385,7 @@
    <property name="Stars" value="1"/>
    <property name="Text" value="When an Upgrade is scrapped from your Axor, Opportunistic Fencer [THEN] Place a fence counter on this. During your turn, when this has 2 or more fence counters, you may flip this and play it on him."/>
    <alternate type="back" name="Vehicle: Off-Road Cycle" size="Small">
-    <property name="Type" value="Stratagem"/>
+    <property name="Type" value="Stratagem - back"/>
     <property name="ATK" value="1"/>
     <property name="HP" value="1"/>
     <property name="Text" value="When this is occupied for the first time, you may return a Sidecar Artillery from your scrap pile to your hand."/>
@@ -1399,7 +1399,7 @@
    <property name="Stars" value="1"/>
    <property name="Text" value="While your Private Greenlight, Special Ops · Recon is in bot mode and she is upgraded with at least 3 [G] Upgrades, she can’t take more than 4 damage from a single attack."/>
    <alternate type="back" name="Verdant Aegis" size="Small">
-    <property name="Type" value="Stratagem"/>
+    <property name="Type" value="Stratagem - back"/>
     <property name="ATK" value="1"/>
    </alternate>
    <property name="Rarity" value="Uncommon"/>

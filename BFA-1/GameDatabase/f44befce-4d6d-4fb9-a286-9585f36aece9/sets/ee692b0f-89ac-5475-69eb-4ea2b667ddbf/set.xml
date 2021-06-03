@@ -29,7 +29,7 @@
    <property name="Faction" value="Quintesson"/>
    <property name="Traits" value="Ranged"/>
    <property name="Text" value="When one of your characters attacks and you flip at least one card with no battle icons [THEN] After the battle, you may swap a card from your hand for a card you flipped with no battle icons."/>
-   <alternate type="bot" name="Red Wizard - Ruler of Menonia" size="Large">
+   <alternate type="bot" name="Mara-Al-Utha - Usurper of Menonia" size="Large">
     <property name="Type" value="Character - Bot Mode"/>
     <property name="ATK" value="2"/>
     <property name="HP" value="12"/>

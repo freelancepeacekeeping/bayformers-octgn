@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Team Bayformers - Encounter 1" id="ee692b0f-89ac-5475-69eb-4ea2b667ddbf" gameId="f44befce-4d6d-4fb9-a286-9585f36aece9" gameVersion="0.0.0.1" version="0.0.0.1">
+ <cards>
+  <card id="a81cf422-1744-16a2-3f17-5e2d94fe6170" name="Armada - Herald of Shrouds" size="Large">
+   <property name="Card Number" value="X:T04"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="11"/>
+   <property name="Stars" value="7"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Plane,Spaceship,Specialist"/>
+   <property name="Text" value="This has Stealth while tapped.  This has +1[ATK] and +1[DEF] for each of your untapped [Spaceships]."/>
+   <alternate type="bot" name="Armada - Herald of Shrouds" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="5"/>
+    <property name="HP" value="11"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="When your opponent uses a [TAP] ability of one of their characters, or an opponent's card causes exactly one of their characters to untap [THEN] Untap this or one of your [Spaceships] that has the same number of [STARS] or fewer than the enemy. Then flip this."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="00c87051-8a17-e9ce-439c-70bec6017ebd" name="Red Wizard - Ruler of Menonia" size="Large">
+   <property name="Card Number" value="X:T23"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="12"/>
+   <property name="Stars" value="8"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="When one of your characters attacks and you flip at least one card with no battle icons [THEN] After the battle, you may swap a card from your hand for a card you flipped with no battle icons."/>
+   <alternate type="bot" name="Red Wizard - Ruler of Menonia" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="12"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="When you play a battle card that has exactly 1[STAR] [THEN] Your opponent reveals the top three cards of their deck. Look at your opponent’s hand. You may swap any of the revealed cards with any of the cards from their hand. Put the rest on top of your opponent's deck in any order."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="572dcb57-1950-fb1a-da9f-68f521aebe2b" name="Savage Wheelie - Rhymer Climber" size="Large">
+   <property name="Card Number" value="X:T24"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="(before the game begins / just like you planned / reveal an Energon Slingshot from your deck / and put it in your hand)  When this defends and both players flip at least [O] → The attacker gets -1[ATK] this battle for each [O] you flipped, up to the number of [O] the opponent flipped."/>
+   <alternate type="bot" name="Savage Wheelie - Rhymer Climber" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="10"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Text" value="When this attacks and both players flip at least [B] [THEN] The defender gets -1[DEF] this battle for each [B] you flipped, up to the number of [B] the opponent flipped."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="b99e4dc5-5c0b-ec25-969f-2958d7b299dd" name="Energon Reclamation" size="Small">
+   <property name="Card Number" value="X:S09"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="HP" value="3"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Autobot Novastar, Search and Rescue is in bot mode and does attack damage [THEN] Put a fuel counter on this and flip her to alt mode after the battle.  During the main phase of your turn [THEN] You may repair damage from one of your characters equal to the number of fuel counters on this. If you do, flip this."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="1164eabc-2001-dc3a-d8cc-3c89d44fcee0" name="Rabblerouser - Aerial Onslaught" size="Large">
+   <property name="Card Number" value="X:T22"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="This has +3[ATK] while attacking a [Quintesson].  When you flip to this mode [THEN] Look at the top card of your deck. You may put it into your hand."/>
+   <alternate type="bot" name="Rabblerouser - Aerial Onslaught" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="10"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="This has +3[ATK] while attacking a [Junkion].  When one of your [Planes] attacks [THEN] Plan 1."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="5bc8fb4c-8a4f-13ce-e6a2-5b8c88dce443" name="Deliberata - Judger and The Judged" size="Large">
+   <property name="Card Number" value="X:T12"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="16"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="10"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Judge,Specialist"/>
+   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a [G] card from your hand. If you do, reveal the two 2 cards of your deck. If they include at least [G], put both of them into your hand. Otherwise, scrap them. [CHOICE]Scrap cards from your hand equal to 3 minus the number of [Tentacles] on this. Then untap one of your Quintessons that has 4[STARS] or fewer."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="4dafbc6e-75c1-99f6-2472-1722a5de6a53" name="Sharkticon Peck - Protoform Pup" size="Small">
+   <property name="Card Number" value="X:T28"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="5"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="This has Stealth while untapped.  When more than one of your characters untaps [THEN] Return a [O] card from your scrap pile to your hand."/>
+   <alternate type="bot" name="Sharkticon Peck - Protoform Pup" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="5"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When you flip to this mode [THEN] Each of your [Sharkticons] and [Allicons] gets Bold 1 until end of turn."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="4eb60f83-2230-e3e9-80c0-c435e8dfea0d" name="Sharkticon Biter - Brazen Berserker" size="Small">
+   <property name="Card Number" value="X:T25"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="4"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="When this attacks [THEN] Plan 1.  When this attacks and you flip at least [W][O][G] [THEN] You get an extra attack this turn, but only with one of your [Sharkticons]."/>
+   <alternate type="bot" name="Sharkticon Biter - Brazen Berserker" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="4"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When this returns to the battlefield from the KO area [THEN] One of your characters gets Bold 2 until end of turn."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="1a91718f-f476-cb2b-0a2d-bcddd908c8d3" name="Optimus Prime - Dark Awakening" size="Large">
+   <property name="Card Number" value="X:T21"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="15"/>
+   <property name="DEF" value="3"/>
+   <property name="Stars" value="11"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Leader,Truck,Melee"/>
+   <property name="Text" value="At the start of the game [THEN] Do 2 damage to this.  When you flip to this mode [THEN] Return a [G] card from your scrap pile to hand."/>
+   <alternate type="bot" name="Optimus Prime - Dark Awakening" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="6"/>
+    <property name="HP" value="15"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Leader,Melee"/>
+    <property name="Text" value="For each Upgrade on this that has a faction [THEN] Your characters that do not share a faction with that Upgrade get +1[ATK] if it's a Weapon, +1[DEF] if it's an Armor, and +1[HEALTH] if it's a Utility."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="eb1f413c-9183-d881-edee-361d5f69191e" name="Masher Mace" size="Small">
+   <property name="Card Number" value="X:033"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="ATK" value="1"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Bold 1  When this is scrapped from a [Sharkticon] [THEN] Return this to your hand."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="9613800b-77a4-2af3-d988-9536abe658b6" name="Mind Control Helmet" size="Small">
+   <property name="Card Number" value="X:T19"/>
+   <property name="Type" value="Character - Head Mode"/>
+   <property name="Stars" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="[Head] + When this character battles [THEN] It gets your choice of Tough 1, or Safeguard 3 until end of battle; or Plan 1."/>
+   <alternate type="bot" name="Mind Control Helmet" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Text" value="When you deploy this from under a character [THEN] KO this."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="9ad059a6-c35e-7a5e-7950-76843d77e2dc" name="Shockblast - Galactic Man" size="Large">
+   <property name="Card Number" value="X:T29"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="5"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Combaticon,Spaceship,Ranged"/>
+   <property name="Text" value="When you flip to this mode [THEN] Each player draws a card.  This can’t flip to its Upgrade side.  When this is KO'd [THEN] Play its Upgrade side."/>
+   <alternate type="upgrade" name="Astro Magnum" size="Large">
+    <property name="Type" value="Character - Weapon Mode"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="5"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Text" value="When the upgraded character is a [Mercenary] and does enough attack damage to KO an enemy [THEN] Use this card's Bounty ability if the upgraded character’s current mode does not have any other Bounty abilities.  Bounty [THEN] Do 1 damage to an enemy. Your opponent chooses a card from their hand and scraps it.  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
+   </alternate>
+   <alternate type="bot" name="Shockblast - Galactic Man" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="5"/>
+    <property name="DEF" value="3"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Specialist"/>
+    <property name="Text" value="When you flip to this mode [THEN] Reveal the top 2 cards of your opponent's deck. You may put any number of them on the bottom of that deck. Put the rest back on top in any order.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="147742fa-6eb2-f722-ad5e-08840abbb9b5" name="Klementia - Medical Magistrate" size="Large">
+   <property name="Card Number" value="X:T16"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="16"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="10"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Judge,Specialist"/>
+   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a card from your hand. If you do, repair 1 damage from a character. If the scrapped card is a [Quintesson] card, instead repair 2 damage from that character. [CHOICE]Any character gets +[ATK] or -[ATK] equal to the number of [Tentacles] on this until end of turn."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="74c4c016-09e0-a54d-b3b8-0b49ec3c46a6" name="Lokos" size="Small">
+   <property name="Card Number" value="X:T17"/>
+   <property name="Type" value="Character - Head Mode"/>
+   <property name="HP" value="2"/>
+   <property name="Stars" value="3"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Text" value="[Head] + When this battles [THEN] Plan 2"/>
+   <alternate type="bot" name="Lokos" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="2"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="When this battles [THEN] Plan 2."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="7bc2f724-ac0f-e281-74be-6e9aa6d96e97" name="Mind Control Collar" size="Small">
+   <property name="Card Number" value="X:T18"/>
+   <property name="Type" value="Character - Head Mode"/>
+   <property name="Stars" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="[Head] + When this character battles [THEN] It gets your choice of Bold 1, Pierce 1, or Focus 1 until end of battle."/>
+   <alternate type="bot" name="Mind Control Collar" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Text" value="When you deploy this from under a character [THEN] KO this."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="8716639f-87b8-6df5-ad93-2491575a9946" name="Death Crystal Cannon" size="Small">
+   <property name="Card Number" value="X:S08"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="HP" value="3"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When one of your characters that has 7[STARS] or more attacks and you have Sergeant Kup, Veteran Sergeant on the battlefield [THEN] Do damage to the defender equal to the number of Loading the Cannon cards in the KO area."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="57eb1d38-ff8c-7555-f66f-552a262aa3ff" name="Nacelle - Eager Aerospace Engineer" size="Large">
+   <property name="Card Number" value="X:T20"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="11"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="7"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="Your [Decepticons] with no printed abilities have +1[ATK] and +1[DEF]."/>
+   <alternate type="bot" name="Nacelle - Eager Aerospace Engineer" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="5"/>
+    <property name="HP" value="11"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Specialist"/>
+    <property name="Text" value="You may play an extra Upgrade each turn, but only on a [Decepticon] with no printed abilities."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="5847a76f-b33e-3870-8039-71550e2a8aa6" name="Aquatic Maneuvers" size="Small">
+   <property name="Card Number" value="X:004"/>
+   <property name="Type" value="Action"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When one of your [Quintessons] or [Boats] defends.  When Revealed [THEN] The defender gets +2[DEF] until end of battle. When you flip one or more [B] this battle, reduce the attacker's Pierce total by 1 for each [B] you flipped."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="9704d688-6868-4bb0-ab44-17e1a88789e0" name="Aspect of Death" size="Small">
+   <property name="Card Number" value="X:008"/>
+   <property name="Type" value="Upgrade - Armor"/>
+   <property name="DEF" value="3"/>
+   <property name="Stars" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintesson] [Leaders] or [Quintesson] [Specialists] only.  When the upgraded character is attacked [THEN] Put a death counter on this.  When this leaves the battlefield [THEN] Do damage to an enemy equal to the number of death counters on this."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="75a2c8fa-ef0e-1d17-b59c-ec872f4ea1bc" name="Aspect of Laughter" size="Small">
+   <property name="Card Number" value="X:010"/>
+   <property name="Type" value="Upgrade - Armor"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="1"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintesson] [Leaders] or [Quintesson] [Specialists] only.  When one of your cards would scrap a number of cards from hand [THEN] Instead scrap that number of [G] cards from hand minus 1."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="41dd5891-f7da-9f2a-d8cc-92312208921c" name="Guilty or Innocent" size="Small">
+   <property name="Card Number" value="X:024"/>
+   <property name="Type" value="Action"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Black Pips" value="2"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Choose one of your [Sharkticons] or [Allicons]. When it attacks an enemy this turn, choose one [THEN] [CHOICE]The defender's [DEF] becomes 0 during this battle. [CHOICE]Enemies can't use Tough this battle."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="c8d4d864-5e71-df16-3e94-5cf324785623" name="Insurance Write Off" size="Small">
+   <property name="Card Number" value="X:025"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Allicons] and [Sharkticons] only.  When the upgraded character is KO'd [THEN] Draw 2 cards. If at least one of the drawn cards is a [Quintesson] card, you may reveal it. If you do, draw another card."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="87298fee-154b-03c5-9a47-aeb5e70b7be1" name="Litigious Tentacle" size="Small">
+   <property name="Card Number" value="X:027"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="DEF" value="1"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintesson] [Specialists] only.  The upgraded character has +2 [HEALTH].  Up to 3 [Tentacles] can fit in 1 Weapon slot."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="07ebf2b8-6d5c-ce54-8ebe-ec3595e906a2" name="Polarity Gauntlet" size="Small">
+   <property name="Card Number" value="X:039"/>
+   <property name="Type" value="Upgrade - Armor"/>
+   <property name="DEF" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Text" value="When the upgraded character defends [THEN] Reduce the attacker's Bold total by the attacker's [DEF]."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="ccce5f35-d6bc-022e-83f2-e68d538be56c" name="Sharkticon Matrix" size="Small">
+   <property name="Card Number" value="X:046"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="DEF" value="1"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Leaders] only.  Each of your [Quintesson] [Melee] characters has +1[ATK] and Pierce 1."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="64177e07-68f1-32d4-1440-14bc2e17c304" name="Shield Crash" size="Small">
+   <property name="Card Number" value="X:047"/>
+   <property name="Type" value="Action"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Choose one of your characters. Swap its [ATK] and [DEF] until end of turn."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="df540d44-68c4-129f-e903-832a4356b8ed" name="Sidecar Artillery" size="Small">
+   <property name="Card Number" value="X:048"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="White Pips" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Text" value="When the upgraded character attacks and has 3 [ATK] or less [THEN] After the battle, do 2 damage to an enemy and scrap this."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="d39da8f6-9dbd-087a-5f8a-000ba7ae84d1" name="Thermal Sealant" size="Small">
+   <property name="Card Number" value="X:053"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="When the upgraded character defends against an attacker with Pierce and you flip at least [O] [THEN] Reduce the attacker's Pierce total by 1 for each [O] you flipped this battle."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="6198b9c3-dd67-30f1-5688-9153141a4ce7" name="United Against Tyranny" size="Small">
+   <property name="Card Number" value="X:057"/>
+   <property name="Type" value="Action"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Text" value="Choose one of your [Autobots]. It gets +2[ATK] until end of turn.  Choose an enemy [Decepticon]. It gets -2[DEF] until end of turn."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="5a8db53a-c139-241c-ef73-32947f754f1b" name="Turnabout Snare" size="Small">
+   <property name="Card Number" value="X:057"/>
+   <property name="Type" value="Action"/>
+   <property name="White Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When one of your characters defends.  When Revealed [THEN] Swap the attacker's and until end of battle."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="0e44a3d5-13df-99f8-2ba6-b869fb6f5fa2" name="Inquisitor Drebzik - Exhaustive Interrogator" size="Large">
+   <property name="Card Number" value="X:T15"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="12"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="7"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a [G] card from your hand. If you do, reveal the top 3 cards of your opponent's deck. You may scrap any number of them. Put the rest back on top of their deck in any order. [CHOICE]Choose a [Titan Master] in head mode. Until end of turn, that [Titan Master]’s bonus does not apply to the character it's on."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="1a3b437f-82b6-4c27-88f5-832675bc8ab1" name="Unsavory Leftovers" size="Small">
+   <property name="Card Number" value="X:060"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Allicons] and [Sharkticons] only.  When the upgraded character is KO'd [THEN] You may return a [O] Weapon or [B] Armor from the scrap pile to your hand."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="c1d7009b-da57-50e7-ec7d-648b34c7f61d" name="Gilthor - Chained Amalgamation" size="Large">
+   <property name="Card Number" value="X:T14"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="7"/>
+   <property name="HP" value="17"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="13"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Truck,Ranged"/>
+   <property name="Text" value="This has Bold equal to the number of [Tentacles] you have on the battlefield.  When you flip to this mode [THEN] Do 1 damage to an enemy. You may flip that enemy to another mode."/>
+   <alternate type="bot" name="Gilthor - Chained Amalgamation" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="7"/>
+    <property name="HP" value="17"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Text" value="This has +[DEF] equal to the number of [Tentacles] you have on the battlefield.  When this character defends and the attacker flips at least [O][K] [THEN] doesn’t give Pierce this battle."/>
+   </alternate>
+   <property name="Rarity" value="Super Rare"/>
+  </card>
+  <card id="c3320640-2889-4b6e-e6e2-bbd8ecafa895" name="Dark Regeneration" size="Small">
+   <property name="Card Number" value="X:S07"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="At the start of the first turn [THEN] Move any number of damage counters from your Optimus Prime, Dark Awakening to another character, but not enough to KO it."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="ef851638-2a19-3f81-7695-cebbaec0a8a8" name="General Ghyrik - Grievous Executioner" size="Large">
+   <property name="Card Number" value="X:T13"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="6"/>
+   <property name="HP" value="14"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="11"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="Enemies have -1[HEALTH] during your turn.  When this attacks [THEN] Choose an enemy character. This gets Bold and Pierce until end of turn equal to the number of battle icons on their Utilities. Then scrap a Utility from that character."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="e0896237-3719-db89-0c0d-6d5690fa146f" name="Decepticon Exhaust - Consumptive Condottiere" size="Large">
+   <property name="Card Number" value="X:T11"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="5"/>
+   <property name="HP" value="13"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="8"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Car,Melee"/>
+   <property name="Text" value="At the start of each turn [THEN] You may do 1 damage to this.  Each turn, this has +1[ATK] and +1[DEF] for each time he has taken damage or has had damage counters moved onto him during that turn."/>
+   <alternate type="bot" name="Decepticon Exhaust - Consumptive Condottiere" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="13"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When this does enough attack damage to KO an enemy [THEN] Use this card's Bounty ability.  Bounty [THEN] Move 1 damage counter from this to another character."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="c007a718-9fff-1931-afb2-5702783a02b2" name="Colossal Cannons" size="Small">
+   <property name="Card Number" value="X:S06"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Gilthor, Chained Amalgamation does attack damage to a non-[Leader] [Decepticon] [THEN] Do 1 damage to an enemy [Decepticon].  When your Gilthor, Chained Amalgamation does attack damage to a non-[Leader] [Autobot] [THEN] Do 1 damage to an enemy [Autobot]."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="deb9f6cf-8d4d-9b95-e511-b897c1174c72" name="Decepticon Doublecrosser - Shield Brothers" size="Small">
+   <property name="Card Number" value="X:T10"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="11"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="7"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="When an enemy [Titan Master] deploys during your turn while this is untapped [THEN] You get an extra attack this turn, but only with this against that [Titan Master]. This may attack as though that [Titan Master] were tapped."/>
+   <alternate type="upgrade" name="Crossguard 2X" size="Small">
+    <property name="Type" value="Character - Armor Mode"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Text" value="After the attacker flips battle cards while this is defending [THEN] Reduce the attacker's Pierce total by this character's [DEF].  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="1ebe8505-e860-5d28-f987-d312f81dbfb6" name="Cerebro-Shell Shock" size="Small">
+   <property name="Card Number" value="X:S05"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="HP" value="2"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Bombshell, Insecticon Mind-Controller defends while tapped against a damaged enemy [THEN] The attacker can't flip more than 4 battle cards this battle."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="6f4b06c5-4274-7d3d-288d-e3b272cfeaba" name="Axor - Opportunistic Fencer" size="Large">
+   <property name="Card Number" value="X:T08"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="2"/>
+   <property name="HP" value="12"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="8"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="When one of your other characters battles [THEN] You may move a Weapon or Armor from them to this after the battle. If that character is a [Mercenary], use one of its Bounty abilities."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="8ce17d4e-83b5-ca43-b487-39180a9dd9eb" name="Crashbash - Ocean Terror" size="Large">
+   <property name="Card Number" value="X:T09"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="When this attacks and flips a number of [O] less than or equal to his [DEF] [THEN] This gets +2[ATK] until end of battle."/>
+   <alternate type="bot" name="Crashbash - Ocean Terror" size="Large">
+    <property name="Type" value="Character - Body Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="10"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Text" value="When this does attack damage to an enemy without KO’ing it and you flipped at least [O][B] [THEN] You may move that damage from that enemy to another enemy."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="5bfc9321-93f3-77bd-aba9-08e4b7e807ec" name="Cantankerous Attitude" size="Small">
+   <property name="Card Number" value="X:S04"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="HP" value="1"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When you play an Upgrade on Dinobot Slug, Hot-Headed Warrior [THEN] You may scrap an Upgrade on one of your other characters. If you do, do 2 damage to an enemy. When he defends [THEN] You may scrap an Upgrade on him after the battle. If you do, move 1 damage counter from him onto the attacker."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="1840874e-a15d-6040-74e0-e5211467a645" name="Autobot Powerglide - Haughty Show-Off" size="Large">
+   <property name="Card Number" value="X:T07"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="2"/>
+   <property name="HP" value="5"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Aerialbot,Ranged"/>
+   <property name="Text" value="When this battles and you flip at least one [B] Weapon [THEN] At the end of battle, you may swap a card from your hand with one of the [B] Weapons you flipped this battle.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
+   <alternate type="upgrade" name="S2 Thermal Reciprocator" size="Large">
+    <property name="Type" value="Character - Weapon Mode"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="5"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Text" value="When the upgraded character attacks and the defender flips at least [K][K] [THEN] This has Pierce equal to this Upgrade’s [ATK].  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
+   </alternate>
+   <alternate type="bot" name="Autobot Powerglide - Haughty Show-Off" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="5"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="If 1 or more damage counters would be moved onto one of your other characters from an enemy [THEN] Move those counters onto this instead. Then, if this is not KO'd, repair 1 damage from it.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="98059062-c692-524c-8f9d-d392ada0e3aa" name="Brutal Conditioning" size="Small">
+   <property name="Card Number" value="X:S02"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="Once per game, when one of your [Melee] characters takes damage from your cards [THEN] You may put this on that character.  When the character this is on takes damage from one of your cards [THEN] Put a conditioning counter on this. Then if this has three or more conditioning counters, flip this."/>
+   <alternate type="back" name="Brutal Conditioning" size="Small">
+    <property name="Type" value="Stratagem"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="2"/>
+    <property name="DEF" value="2"/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="b03d6345-75dc-b81a-915f-d36bf5f29c1d" name="Buried Banquet" size="Small">
+   <property name="Card Number" value="X:S03"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Allicon Eyuk, Bog Scavenger attacks [THEN] You may put a [K] or [G] Upgrade from your opponent's scrap pile into their KO area. If you do, repair 1 damage from her."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="191b7b9b-3225-7861-deaa-fe4a40624e44" name="Autobot Pipes - Idiosyncratic Collector" size="Large">
+   <property name="Card Number" value="X:T06"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="If one of your [Boats] or characters with two alt modes would take 2 or more attack damage [THEN] Instead you may have this take 2 of that damage and your other character take the rest."/>
+   <alternate type="bot" name="Autobot Pipes - Idiosyncratic Collector" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="10"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Text" value="When an Upgrade with one or more battle icons is scrapped from one of your other characters [THEN] You may reveal the top card of your deck. If you do and it has the same number of battle icons as the scrapped Upgrade, you may put the scrapped Upgrade on this."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="2f9f5c97-5801-4ee9-1700-d6b64102e5a2" name="Sharkticon Gnaw - Gluttonous Gourmand" size="Small">
+   <property name="Card Number" value="X:T27"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="4"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="This has +1[HEALTH] for each card under him.  When you flip to this mode [THEN] You may draw a card."/>
+   <alternate type="bot" name="Sharkticon Gnaw - Gluttonous Gourmand" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="4"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="This has +1[HEALTH] for each card under him.  When you flip to this mode [THEN] You may reveal a non-[G] card from your hand and put it under this."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="d817db48-3501-a3c3-2c9d-1bec4a4f9944" name="Sharkticon Chomp - Craving Carnivore" size="Small">
+   <property name="Card Number" value="X:T26"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="6"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="Focus 1  When this attacks and you flip at least [K][G] [THEN] You may untap one of your [Quintesson] [Specialists] with a bot mode."/>
+   <alternate type="bot" name="Sharkticon Chomp - Craving Carnivore" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="6"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When you flip to this mode [THEN] You may play an [G] Upgrade."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="397ba7f3-14b4-113c-6fc0-15b74604f3b2" name="Slitherfang - Poisonous Protection" size="Small">
+   <property name="Card Number" value="X:T30"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="9"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="When this attacks [THEN] Do 1 damage to the defender after the battle."/>
+   <alternate type="upgrade" name="UD-04 Globo Guard" size="Small">
+    <property name="Type" value="Character - Armor Mode"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Text" value="At the start of your turn [THEN] Do 1 damage to the upgraded character unless it is a [Quintesson].  When the upgraded character defends [THEN] Do 1 damage to the attacker after the battle.  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="7a4e93f6-9288-3049-be3b-c7e7fa876afb" name="Autobot Countdown - Aerospace Commander" size="Small">
+   <property name="Card Number" value="X:T05"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="6"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Car,Specialist"/>
+   <property name="Text" value="This has Stealth while untapped.  When this, your [Guardian], or your Omega Supreme takes 2 or more attack damage without being KO’d [THEN] Move 1 damage counter from it to the attacker."/>
+   <alternate type="bot" name="Autobot Countdown - Aerospace Commander" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="1"/>
+    <property name="HP" value="6"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Traits" value="Specialist"/>
+    <property name="Text" value="This has +[ATK] equal to the lowest [ATK] from among your Omega Supremes or Guardians in your KO area.  This has +[DEF] equal to the lowest from among your Omega Supremes or Guardians in your KO area."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="631a5d4f-9f1b-20ef-ee4d-413bff1442d1" name="Allicon Eyuk - Bog Scavenger" size="Large">
+   <property name="Card Number" value="X:T02"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="5"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="Tough 1  When you flip to this mode [THEN] Return a [G] or [K] Upgrade from your scrap pile to hand."/>
+   <alternate type="bot" name="Allicon Eyuk - Bog Scavenger" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="10"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When this attacks a non-[Melee] character and you flip at least [B] [THEN] This gets +1[ATK] until end of battle for each [B] you flipped."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="517e5c35-c29a-d338-8bfa-fc9f4b22e2bf" name="Alpha Sentinel - Dark Guardian Relic" size="Extra Large">
+   <property name="Card Number" value="X:T03"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="23"/>
+   <property name="DEF" value="3"/>
+   <property name="Stars" value="16"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Spaceship,Tank,Ranged"/>
+   <property name="Text" value="At the start of each turn, if all untapped enemies have 10[STARS] or more total [THEN] Each of your characters get +1[DEF] until end of turn for each of your other characters."/>
+   <alternate type="bot" name="Alpha Sentinel - Dark Guardian Relic" size="Extra Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="8"/>
+    <property name="HP" value="23"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When one of your characters takes attack damage, choose one [THEN] [CHOICE]You may do 1 damage to this. If you do, do 1 damage to the attacker after the battle. [CHOICE]You may do 1 damage to this. If you do, repair 1 damage from one of your other characters after the battle."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="735221a7-aa42-c160-182a-e2b714074c0f" name="All-Out Attack" size="Small">
+   <property name="Card Number" value="X:001"/>
+   <property name="Type" value="Action"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Text" value="Each of your untapped characters can attack this turn."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="0dc357f5-4ab0-bd3f-172d-fd6b73817303" name="Ancient Security Tentacle" size="Small">
+   <property name="Card Number" value="X:002"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="ATK" value="1"/>
+   <property name="DEF" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintesson] [Specialists] only.  Damage counters can't be moved from other characters to the upgraded character.  Up to 3 [Tentacles] can fit in 1 Weapon slot."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="4b3fbffe-855d-afea-051e-ee4a2ad29ff7" name="Angolmois Surge" size="Small">
+   <property name="Card Number" value="X:003"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Faction" value="Unicronian"/>
+   <property name="Text" value="Do 1 damage to one of your [Melee] characters [THEN] It gains +4[ATK] until end of turn.  If you have Unicron, Chaos Bringer on your starting team [THEN] Put 1 Chaos Counter on him."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="1b809586-df5e-2d6a-1979-6a6bc1585ec7" name="Are These Wires Important?" size="Small">
+   <property name="Card Number" value="X:005"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When one of your Beasts, Dinobots, Firecons, Predacons, or your Dazzlestrike, Lionizer, Ravage, Steeljaw, or Trypticon defends.  When Revealed [THEN] Scrap all the attacker's Utilities."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="33e95407-9257-e93b-5ff9-689969de2445" name="Armed To The Teeth" size="Small">
+   <property name="Card Number" value="X:006"/>
+   <property name="Type" value="Action"/>
+   <property name="Stars" value="1"/>
+   <property name="Orange Pips" value="2"/>
+   <property name="Text" value="You may play any number of Weapons onto your characters."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="ac394165-5e4a-2f10-d057-7fe63fc7c491" name="Aspect of Bitterness" size="Small">
+   <property name="Card Number" value="X:007"/>
+   <property name="Type" value="Upgrade - Armor"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="1"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintesson] [Leaders] or [Quintesson] [Specialists] only.  When this leaves the battlefield [THEN] One of your [Quintessons] gets +2[ATK] and +2[DEF] until end of turn."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="8e04449a-f47b-4a95-39e2-2b9569ac4158" name="Aspect of Doubt" size="Small">
+   <property name="Card Number" value="X:009"/>
+   <property name="Type" value="Upgrade - Armor"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="1"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintesson] [Specialists] with a bot mode only.  When you put this on a character [THEN] Untap that character. Repair 2 damage from it."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="b3d4fbb5-4b4d-df33-cd5a-560a62b23e45" name="Aspect of Rage" size="Small">
+   <property name="Card Number" value="X:011"/>
+   <property name="Type" value="Upgrade - Armor"/>
+   <property name="ATK" value="1"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="1"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintesson] [Leaders] or [Quintesson] [Specialists] only.  When you put this on a character [THEN] Move 1 damage counter from the upgraded character to another character. Then do 1 damage to a character."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="2cb848c9-a541-7d38-9f39-83d2a1ad2968" name="Assuming Control" size="Small">
+   <property name="Card Number" value="X:012"/>
+   <property name="Type" value="Action"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Text" value="Choose a character in your KO area. You may add its [ATK] to the total [ATK] of any [Quintesson] [Specialist] with a bot mode, Bombshell, Dr. Arkeville, Megaempress, Mindwipe, Soundblaster, Soundwave, Tarantulas, or Trypticon until end of turn. Then put this card into your KO area."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="a89b6f02-0b6f-7544-71b7-a5559f114e3f" name="Black Mail" size="Small">
+   <property name="Card Number" value="X:013"/>
+   <property name="Type" value="Upgrade - Armor"/>
+   <property name="DEF" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Faction" value="Mercenary"/>
+   <property name="Text" value="When the upgraded character takes attack damage and isn't KO'd [THEN] If the upgraded character is a [Mercenary], move 1 damage counter from it to one of your other characters."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="dd99bdb7-6fd9-3162-994b-e41b46c34581" name="Bomb Removal Protocol" size="Small">
+   <property name="Card Number" value="X:014"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="If one or more damage counters would be moved onto one of your characters from an opponent's character [THEN] Move those damage counters to this instead. Then, if this has 2 or more damage counters on it, scrap it."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="c388cb8a-5f46-396f-1981-96e9110c53de" name="CNA-Encoded Armory" size="Small">
+   <property name="Card Number" value="X:015"/>
+   <property name="Type" value="Action"/>
+   <property name="White Pips" value="1"/>
+   <property name="Text" value="Do 1 damage to one of your [Melee] characters [THEN] Return an Upgrade with “Put on [Melee] characters only” from your scrap pile to your hand."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="0fefdcf1-c03f-5d45-2718-ee59d389b3c5" name="Demolition Derby" size="Small">
+   <property name="Card Number" value="X:016"/>
+   <property name="Type" value="Action"/>
+   <property name="Text" value="If your opponent has at least twice the number of characters on the battlefield than you do [THEN] One of your characters gets +2[ATK] until end of turn. When it attacks and does enough attack damage to KO an enemy this turn, untap it."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="e5035b8b-6368-ab5b-4d03-984b20a720a9" name="Discordant Cacophony" size="Small">
+   <property name="Card Number" value="X:017"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] After your opponent chooses an attacker, has at least one untapped character, and you have at least two [Motorcycles], Blaster, Frenzy, Hellbat, Jazz, Nightscream, Soundblaster, Soundwave, Tarantulas, or Transmutate.  When Revealed [THEN] The attacker untaps and cannot attack this turn, and the opponent chooses a different character to attack."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="e7ed1d3e-0788-931f-5793-4e5fc3464125" name="Dreadful Feast" size="Small">
+   <property name="Card Number" value="X:018"/>
+   <property name="Type" value="Action"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Choose two characters on the same team. Move 1 damage counter from each to a third character on the same team."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="c115ed78-9d73-ca79-ddf8-fea0b40bc61b" name="Dutch" size="Small">
+   <property name="Card Number" value="X:019"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="ATK" value="2"/>
+   <property name="White Pips" value="1"/>
+   <property name="Faction" value="Mercenary"/>
+   <property name="Text" value="When the upgraded character battles and you flip your first [W] [THEN] Flip 1 extra battle card."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="719b20f3-e13a-a854-1b88-72bd07cacc1f" name="Energy Conversion Field" size="Small">
+   <property name="Card Number" value="X:020"/>
+   <property name="Type" value="Action"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] If an opponent's card would do non-attack damage to more than one of your characters.  When Revealed [THEN] Instead repair 1 damage from all of your characters."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="c6284c56-9937-d644-3576-3c611bc6f726" name="Forked Tentacle" size="Small">
+   <property name="Card Number" value="X:021"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="ATK" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintesson] [Specialists] only.  When you [TAP] [THEN] If one of your abilities would make you choose one effect, you may choose two of those effects instead.  Up to 3 [Tentacles] can fit in 1 Weapon slot."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="43ec4533-83fb-0da9-3e76-5440a651b7ef" name="Gift of Innermost Energon" size="Small">
+   <property name="Card Number" value="X:022"/>
+   <property name="Type" value="Action"/>
+   <property name="Text" value="Do 1 damage to each of your characters. If no characters are KO'd this way, choose one of your characters and repair damage from it equal to the total amount of damage done this way."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="6b7042c8-79c4-9fa8-fa0e-104b59d4aef3" name="Give Me Your Face" size="Small">
+   <property name="Card Number" value="X:023"/>
+   <property name="Type" value="Action"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="When an enemy [Titan Master] deploys this turn [THEN] Tap it."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="5aed937c-53db-e75b-469a-8424dcf91d26" name="Judicial Discretion" size="Small">
+   <property name="Card Number" value="X:026"/>
+   <property name="Type" value="Action"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Do 1 damage to a character or repair 1 damage from a character. Then, if you have a [Judge] or Tyrest on the battlefield, repeat this once."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="ddc50c18-b8b9-f974-116a-27445625160a" name="Loading The Cannon" size="Small">
+   <property name="Card Number" value="X:028"/>
+   <property name="Type" value="Action"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When one of your characters defends.  When Revealed [THEN] That character gets +1[DEF] until end of battle. After the battle, if the amount of attack damage that character took was less than or equal to its [DEF] before flips, put this card into your KO area."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="d3668975-da7b-67d9-eac3-a14c5a828542" name="Lose The Battle..." size="Small">
+   <property name="Card Number" value="X:029"/>
+   <property name="Type" value="Action"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When one of your characters defends.  When Revealed [THEN] Return a Weapon from your scrap pile to your hand."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="e669e278-ebfd-4c2f-0358-9d29057f6412" name="Lost In Transit" size="Small">
+   <property name="Card Number" value="X:030"/>
+   <property name="Type" value="Action"/>
+   <property name="White Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] As your opponent plays an [K] Action.  When Revealed [THEN] Scrap that Action and it has no effect."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="3f125e03-fc73-1052-06e9-8e05a8b5c32f" name="Maceration Laser" size="Small">
+   <property name="Card Number" value="X:031"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="ATK" value="2"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Put on [Quintessons] only.  While the upgraded character is attacking an enemy from a different faction [THEN] It has Pierce 2."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="e1040c0c-77fe-81c2-6942-48718275bb66" name="Manipulate Time" size="Small">
+   <property name="Card Number" value="X:032"/>
+   <property name="Type" value="Action"/>
+   <property name="White Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Reveal [THEN] When one of your characters defends.  When Revealed [THEN] That character gets Tough equal to the number of [Quintessons] you have on the battlefield. When you flip battle cards this battle, if that character's upgrades include at least [O][K][B][G][G] and you flip at least [O][K][B][G][G], your character takes no attack damage this battle and you untap all your characters."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="7b1a5192-ddbd-d891-71a5-93c41bfde370" name="Motorcycle Chase" size="Small">
+   <property name="Card Number" value="X:034"/>
+   <property name="Type" value="Action"/>
+   <property name="White Pips" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Text" value="Tap one of your untapped [Motorcycles] [THEN] Your opponent chooses one of their untapped characters that has 10[STARS] or fewer and taps it. That character gets Brave until end of turn."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="2b16f8de-aeb7-3630-1dcc-d3669a8f73e4" name="Occupation" size="Small">
+   <property name="Card Number" value="X:035"/>
+   <property name="Type" value="Action"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Draw 2 cards. Then scrap 2 cards from your hand.  If you began the game with only [Quintesson] characters [THEN] You may play a [G] card."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="d3bedd4a-fc1d-ff9f-8d5e-a827a36f6ea6" name="Open Agenda" size="Small">
+   <property name="Card Number" value="X:036"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Text" value="Reveal the top 3 cards of your deck. Put up to 2 of those cards into your hand. Put the rest on the bottom of your deck in any order."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="eb87b6bf-9854-4cd9-7936-62ac0d1c04e5" name="Opportune Protection" size="Small">
+   <property name="Card Number" value="X:037"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Mercenary"/>
+   <property name="Text" value="Reveal [THEN] If one of your [Quintessons] would take damage and you had a [Mercenary] on your starting team.  When Revealed [THEN] You may have one of your other characters take up to 3 of that damage and your [Quintesson] take the rest."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="7fa50d33-2351-93d3-07cc-01097720365b" name="Photon Charge" size="Small">
+   <property name="Card Number" value="X:038"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="ATK" value="3"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Text" value="When the upgraded character attacks and has less than 2[DEF] [THEN] Do 1 damage to it.  When the upgraded character does attack damage to an enemy [THEN] Do 1 damage to another enemy.  After the upgraded character attacks [THEN] Scrap this card."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="595a0a1d-c118-f6b4-7a96-89a1ebf0b76b" name="Polydermal Graft" size="Small">
+   <property name="Card Number" value="X:040"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Text" value="Put on [Melee] characters only.  When you put this on a character [THEN] Do 1 damage to it.  The upgraded character has +4[HEALTH]."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="3c956ea7-1544-e450-1810-96ad25a32fbe" name="Prime's New Arm" size="Small">
+   <property name="Card Number" value="X:042"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="ATK" value="1"/>
+   <property name="DEF" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Text" value="Put only on a damaged Optimus Prime.  The upgraded character has +2[HEALTH].  This cannot be scrapped by the opponent’s cards."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="1c483650-d1d9-de05-2648-5b3d6d482a32" name="Reroute Enemy Vectors" size="Small">
+   <property name="Card Number" value="X:043"/>
+   <property name="Type" value="Action"/>
+   <property name="Text" value="Reveal [THEN] At the beginning of your opponent's turn.  When Revealed [THEN] Choose one of your characters and an enemy. If your chosen character would take attack damage from the chosen enemy, instead it takes half that damage rounded down."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="309c561f-4fae-7d90-2176-8118329428a0" name="Scrounging For Energon" size="Small">
+   <property name="Card Number" value="X:044"/>
+   <property name="Type" value="Action"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Choose a battle icon color. Then your opponent reveals the top card of their deck. If it has a battle icon of the chosen color, you draw two cards and your opponent chooses a card from their hand and scraps it."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="8a791ba1-25fd-f64e-1729-261becce7086" name="Secret Missive" size="Small">
+   <property name="Card Number" value="X:045"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Text" value="When this is put on a character [THEN] Draw a card. Return a [G] Secret Action from the scrap pile to your hand."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="a6c8ff5b-2a11-c6b1-83a1-4380f3081976" name="Squid Pro Quo" size="Small">
+   <property name="Card Number" value="X:049"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Text" value="Move up to 2 damage counters from one of your [Quintessons] to one of your [Decepticons]. Until end of turn, that [Decepticon] gets +[ATK] equal to the number of damage counters moved onto it this turn."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="81534ef7-d38e-ba0c-9593-b0ef8bfdb3da" name="Stim Shock" size="Small">
+   <property name="Card Number" value="X:050"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When an enemy attacks.  When Revealed [THEN] Do 1 damage to each enemy that has Bold. Then reduce each enemy’s Bold total by 3 until end of turn."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="5ed54a49-0c4f-0c47-cc20-67e00a1bf123" name="Subcontractor Agreement" size="Small">
+   <property name="Card Number" value="X:051"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="White Pips" value="1"/>
+   <property name="Faction" value="Mercenary"/>
+   <property name="Text" value="If you would use a Bounty ability of the upgraded character [THEN] You may instead use a Bounty ability of one of your cards."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="157e4652-4e57-4cd7-adc5-f8e7474f0dcf" name="Tetrinite Micro-Lining" size="Small">
+   <property name="Card Number" value="X:052"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When one of your characters defends.  When Revealed [THEN] That character gets +2[DEF] until end of battle. If it has an Armor, reduce the attacker's Pierce total by 4 until end of battle."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="40589b5b-0035-670f-4053-7364ed38dab6" name="The Dweller Awakens" size="Small">
+   <property name="Card Number" value="X:053"/>
+   <property name="Type" value="Action"/>
+   <property name="Blue Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When your opponent plays an Action that reveals or triggers a Secret Action.  When Revealed [THEN] Choose one: [CHOICE]Do 1 damage to each enemy. [CHOICE]Do 2 damage to one enemy."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="ff36e133-e624-95f4-2134-d4448d5b3df7" name="Touch of Quintessa" size="Small">
+   <property name="Card Number" value="X:056"/>
+   <property name="Type" value="Action"/>
+   <property name="Stars" value="1"/>
+   <property name="White Pips" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="Reveal [THEN] If one of your [Quintessons] would take enough attack damage to be KO’d.  When Revealed [THEN] Repair damage from that character equal to the number of [G] each player flipped this battle before it takes that attack damage. Then put this card into your KO area."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="147a59f5-458b-669d-b264-35fa5d5a4056" name="Underbase Fragment" size="Small">
+   <property name="Card Number" value="X:058"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="White Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Put on [Specialists] only.  When the upgraded character is tapped [THEN] Return a Tech Research or an Upgrade with “Superior” in its name from the scrap pile to your hand."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="fe03a0a5-2046-4b5e-a4cc-e74e2781819d" name="Universal Greeting" size="Small">
+   <property name="Card Number" value="X:059"/>
+   <property name="Type" value="Action"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Text" value="Choose an [Autobot] character and another character that is either a [Quintesson] or [Junkion]. Make a choice for each of your chosen characters [THEN] [CHOICE]It gets Bold 1 until end of turn. [CHOICE]It gets Pierce 2 until end of turn. [CHOICE]Repair 1 damage from it."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="8a2c346c-2121-f8e8-a7b7-8797dc280407" name="Vorpal Fangs" size="Small">
+   <property name="Card Number" value="X:061"/>
+   <property name="Type" value="Upgrade - Weapon"/>
+   <property name="ATK" value="1"/>
+   <property name="White Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="When the upgraded character attacks and you flip battle cards [THEN] If you flipped at least [G][G][G][G], scrap this card. If you didn't, reduce the defender's [DEF] by 1 until end of battle for each you [G] flipped."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="a349d356-0337-c652-ef9b-d79198833455" name="What Lies Beyond" size="Small">
+   <property name="Card Number" value="X:062"/>
+   <property name="Type" value="Action"/>
+   <property name="White Pips" value="1"/>
+   <property name="Black Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When an enemy returns to the battlefield from the KO area, or an enemy is KO'd by an opponent's card without doing damage to it.  When Revealed [THEN] Do 2 damage to an enemy. Tap any characters that returned to the battlefield from the KO area. If the opponent would take an extra turn, they skip that turn instead."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="46fcc6b9-b27f-87d2-3697-b3ce77a338ef" name="Whipped Into Shape" size="Small">
+   <property name="Card Number" value="X:063"/>
+   <property name="Type" value="Action"/>
+   <property name="Orange Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When one of your [Melee] characters defends.  When Revealed [THEN] Do 1 damage to that character. It gets +4 [DEF] until end of battle."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="891adc06-0d0f-a735-5de5-e233cbf6d9c5" name="Allicon Aronik - Killer Croc" size="Large">
+   <property name="Card Number" value="X:T01"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="9"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="5"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="When this defends [THEN] Plan 1.  When this defends against a non-Specialist character [THEN] The attacker can’t use Pierce this battle."/>
+   <alternate type="bot" name="Allicon Aronik - Killer Croc" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="1"/>
+    <property name="HP" value="9"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When this attacks and you flip at least [B] [THEN] This gets +[ATK] equal to the number of damage counters on him."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="b28d4052-9e92-3efd-e6d5-1d5d31e6eb6d" name="Tow-Line - Signals Engineer" size="Large">
+   <property name="Card Number" value="X:T31"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="11"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="8"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="When you play your first Action this turn [THEN] Plan 1."/>
+   <alternate type="bot" name="Tow-Line - Signals Engineer" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="5"/>
+    <property name="HP" value="11"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Text" value="When this battles and you flip [W][O][B] [THEN] You may put a face-up Action that was played in your played area into your hand after the battle."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="9f65dfa0-240e-62d6-852b-87d03cd784b8" name="Brace For Impact" size="Small">
+   <property name="Card Number" value="X:S01"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Ramjet, Sky Smasher is upgraded with an Armor and defends while in alt mode [THEN] Flip him to bot mode.  When your Ramjet, Sky Smasher is upgraded with a Weapon and attacks while in bot mode [THEN] Flip him to alt mode."/>
+   <alternate type="back" name="Brace For Impact" size="Small">
+    <property name="Type" value="Stratagem"/>
+    <property name="DEF" value="1"/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="4945a15e-96aa-1c40-f26e-7ba645bc9b04" name="Enterprising Spotlight" size="Small">
+   <property name="Card Number" value="X:S10"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="If your starting team is only [Mercenaries] [THEN] Your deck can have up to 2 extra [STARS] of [K] cards."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="d2608805-bc43-7003-b39e-7c57bead93c8" name="Forbidden Sorcery" size="Small">
+   <property name="Card Number" value="X:S11"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="Your deck can have up to 2 extra [STARS] of battle cards with no battle icons."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="8cef2ec8-8bec-4ba2-e66a-67c028d52a39" name="Hit Me With That Beat" size="Small">
+   <property name="Card Number" value="X:S12"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="1"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Autobot Jazz, Special Ops defends in alt mode against an attacker that has Pierce and you flip at least [W][W] [THEN] Do 1 damage to Autobot Jazz, Special Ops. He can't take more attack damage for this attack than the number of damage counters already on him."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="d81142a0-b13f-c55b-9ff3-03dcd435aa9f" name="In The Name of Slingshot" size="Small">
+   <property name="Card Number" value="X:S13"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Text" value="Before the game begins [THEN] Deploy an Autobot Powerglide, Haughty Show-Off you own from outside the game to the battlefield in alt mode.  At the start of the first turn [THEN] Put 1 damage counter on each of four of your [Aerialbots]."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="af160446-0fb2-7ae1-140b-187f60962c7f" name="Indigestion" size="Small">
+   <property name="Card Number" value="X:S14"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="Your Sharkticon Gnaw, Gluttonous Gourmand has “Once per game, [TAP], Scrap all cards from under this [THEN] Do damage to a tapped enemy equal to the number of cards scrapped this way. Flip Indigestion.”"/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="450d0152-8284-5dc9-16bb-58da1f904be6" name="Kneel Before Us" size="Small">
+   <property name="Card Number" value="X:S15"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="The character Mind Control Helmet is on has Brave."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="4ba8a53a-02fd-992a-6837-bfb19b42c8bd" name="Localized Tremors" size="Small">
+   <property name="Card Number" value="X:S16"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Alpha Sentinel, Dark Guardian Relic is on the battlefield and two or more enemies untap [THEN] Your opponent chooses one of their Upgrades and scraps it.  When an enemy untaps and its [DEF] is less than your Alpha Sentinel, Dark Guardian Relic’s [DEF] [THEN] Do 1 damage to that enemy."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="6393bb42-6419-c14e-23e8-932a608a1ea5" name="Magnetic Boomerang" size="Small">
+   <property name="Card Number" value="X:S17"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="HP" value="2"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When an opponent's card scraps an Upgrade from your Raider Ion Storm, Infantry • Rainmaker while he is in alt mode [THEN] Return that Upgrade to your hand."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="560a03b4-eceb-7ee7-c79b-33d8d2822760" name="Mass Displacement Drive" size="Small">
+   <property name="Card Number" value="X:S18"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Major Soundwave, Espionage • Spy flips to alt mode [THEN] He has 5[STARS] while he is in alt mode."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="9498c377-da57-aeff-d618-568dc6eb9f12" name="Nebulous Spotlight" size="Small">
+   <property name="Card Number" value="X:S19"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="If your starting team is only [Quintessons] [THEN] Your deck can have up to 2 extra [STARS] of cards."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="1a903e77-c3cf-ea5f-c879-32906d16ac8b" name="Orbital Command" size="Small">
+   <property name="Card Number" value="X:S20"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="Your Captain Omega Supreme, Transport • City Defender has the [Guardian] trait.  Before the game begins [THEN] Deploy an Autobot Countdown, Aerospace Commander you own from outside the game to the battlefield in alt mode."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="c4ce87b4-9066-c285-7052-49356a97c975" name="Pit of Judgement" size="Small">
+   <property name="Card Number" value="X:S21"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="This begins the game with swarm counters equal to the number of [Quintessons] on your starting team.  During the main phase of your turn, if you have a [Judge] on the battlefield [THEN] You may scrap 3 [G] cards from your hand and remove a swarm counter from this. If you do, return a [Sharkticon] that has 4[STARS] or less from your KO area to the battlefield fully repaired."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="42d173d8-7f26-944f-8197-3cfd1481214a" name="Quite A Haul" size="Small">
+   <property name="Card Number" value="X:S22"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="2"/>
+   <property name="Text" value="When one of your [Mercenaries] does enough attack damage to KO an enemy [THEN] You may use that [Mercenary’s] Bounty ability."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="9ef70ff5-45d9-01a7-1ef7-2d42b32e7182" name="Sound The Alarm" size="Small">
+   <property name="Card Number" value="X:S23"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Autobot Pipes, Idiosyncratic Collector is KO'd [THEN] Choose one of your characters. Flip this, add its stats to your chosen character's stats, and return a card with Brave or Stealth in its text box from your scrap pile to your hand."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="26256b5b-fb47-0014-aa21-af5f681c30fb" name="Squeeze Play" size="Small">
+   <property name="Card Number" value="X:S24"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="Your deck can have up to 2 extra [STARS] of cards with both [O] and [B]."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="60c1c073-4b94-06eb-7fe1-e5fe792f3319" name="Stuck On You" size="Small">
+   <property name="Card Number" value="X:S25"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="If your starting team has only two characters [THEN] Each of your characters has an additional Armor slot.  During the main phase of your turn [THEN] You may put an Armor from your scrap pile or KO area onto one of your characters. If you do, flip this."/>
+   <alternate type="back" name="Stuck On You" size="Small">
+    <property name="Type" value="Stratagem"/>
+    <property name="Text" value="When you have only two characters on your starting team [THEN] Both characters have an additional Armor slot."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="d6282d6c-a65a-3e84-1d68-e5261cb349ae" name="The Last Line of Defense" size="Small">
+   <property name="Card Number" value="X:S26"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="HP" value="4"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="Your Omega Supreme, Autobot Defense Base has Brave and an additional Utility slot.  When one or more enemies untap [THEN] You may scrap a card from hand. If you do, move a damage counter from one of your characters to one of your opponent’s characters."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="4732c036-7f4c-f7be-1eeb-6e1b81f4c12c" name="The Solo Job" size="Small">
+   <property name="Card Number" value="X:S27"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="If you have exactly one [Mercenary] on your starting team [THEN] Your deck can have up to 2 extra [STARS] of [K] cards."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="1b570832-f70f-42f4-b04d-418be68ea8d3" name="Thermal Reciprocation" size="Small">
+   <property name="Card Number" value="X:S28"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="5"/>
+   <property name="Stars" value="3"/>
+   <property name="Text" value="When your Autobot Powerglide, Haughty Showoff takes damage from an opponent's card or has one or more damage counters moved onto him from an opponent's card [THEN] Put a thermal counter on this.  When a character upgraded with your S2 Thermal Reciprocator does attack damage [THEN] You may remove one or more thermal counters from this. If you do, do damage to the defender equal to the number of thermal counters removed."/>
+   <alternate type="back" name="Thermal Reciprocation" size="Small">
+    <property name="Type" value="Stratagem"/>
+    <property name="ATK" value="1"/>
+    <property name="HP" value="5"/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="c69d9fa8-74b7-2a4e-8a7f-0f9e3159ceb0" name="Third Party Brigade" size="Small">
+   <property name="Card Number" value="X:S29"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="Before the game begins, if 5 [Combaticons] are on your starting team [THEN] Deploy a Shockblast, Galactic Man you own from outside the game to the battlefield in alt mode.  When one of your [Combaticons] attack and you flip battle cards [THEN] Scrap the first [K] card you flip without using its battle icons."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="d04f3f9f-d85e-9518-fe79-f6f27dc26397" name="This Gun For Hire" size="Small">
+   <property name="Card Number" value="X:S30"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="4"/>
+   <property name="Stars" value="3"/>
+   <property name="Text" value="Your Shockblast, Galactic Man is a [Mercenary] instead of a [Decepticon].  Remove the text “is a Mercenary and” from your Astro Magnum."/>
+   <alternate type="back" name="This Gun For Hire" size="Small">
+    <property name="Type" value="Stratagem"/>
+    <property name="ATK" value="1"/>
+    <property name="HP" value="4"/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="02975422-15c9-58cd-a057-a22fccfa3d11" name="Triggercon-Vention" size="Small">
+   <property name="Card Number" value="X:S31"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="If you have Windsweeper, Air Defense and Crankcase, Data Collector on your starting team [THEN] Your starting [STAR] limit is increased by 4.  Replace the text “move 1 damage counter” with “move 2 damage counters” on the alt mode of your Windsweeper, Air Defense."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="a1ba00ed-38fb-eb9e-85d3-3108faa503d6" name="Up In Smoke" size="Small">
+   <property name="Card Number" value="X:S32"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="Before the game begins [THEN] You may reveal a Smoke Cloak from your deck and put it in your hand.  Your Decepticon Exhaust, Consumptive Condottiere has Pierce 2 for each Smoke Cloak and Smokethrower he is upgraded with."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="bb42403d-10e0-ccc3-f5d5-d2dd7f78c0ce" name="V2 Sonicsurge Drone Armor" size="Small">
+   <property name="Card Number" value="X:S33"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="HP" value="2"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When your Raider Ravage, Espionage · Saboteur is untapped in alt mode and one of your other characters defends [THEN] You may tap Ravage. If you do, the defender gets +[DEF] until end of turn equal to Ravage’s [DEF] total."/>
+   <alternate type="back" name="V2 Sonicsurge Drone Armor" size="Small">
+    <property name="Type" value="Stratagem"/>
+    <property name="HP" value="2"/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="139be7b2-74b2-fca6-0911-7db51920a309" name="Vehicle: Off-Road Cycle" size="Small">
+   <property name="Card Number" value="X:S34"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="When an Upgrade is scrapped from your Axor, Opportunistic Fencer [THEN] Place a fence counter on this. During your turn, when this has 2 or more fence counters, you may flip this and play it on him."/>
+   <alternate type="back" name="Vehicle: Off-Road Cycle" size="Small">
+    <property name="Type" value="Stratagem"/>
+    <property name="ATK" value="1"/>
+    <property name="HP" value="1"/>
+    <property name="Text" value="When this is occupied for the first time, you may return a Sidecar Artillery from your scrap pile to your hand."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="615f1ceb-8783-5cdc-c950-19e987c1b1cd" name="Verdant Aegis" size="Small">
+   <property name="Card Number" value="X:S35"/>
+   <property name="Type" value="Stratagem"/>
+   <property name="ATK" value="1"/>
+   <property name="Stars" value="1"/>
+   <property name="Text" value="While your Private Greenlight, Special Ops · Recon is in bot mode and she is upgraded with at least 3 [G] Upgrades, she can’t take more than 4 damage from a single attack."/>
+   <alternate type="back" name="Verdant Aegis" size="Small">
+    <property name="Type" value="Stratagem"/>
+    <property name="ATK" value="1"/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+ </cards>
+</set>

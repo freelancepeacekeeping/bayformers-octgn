@@ -927,7 +927,7 @@
    <property name="Rarity" value="Rare"/>
   </card>
   <card id="3c956ea7-1544-e450-1810-96ad25a32fbe" name="Prime's New Arm" size="Small">
-   <property name="Card Number" value="X:042"/>
+   <property name="Card Number" value="X:041"/>
    <property name="Type" value="Upgrade - Utility"/>
    <property name="ATK" value="1"/>
    <property name="DEF" value="1"/>
@@ -937,13 +937,13 @@
    <property name="Rarity" value="Rare"/>
   </card>
   <card id="1c483650-d1d9-de05-2648-5b3d6d482a32" name="Reroute Enemy Vectors" size="Small">
-   <property name="Card Number" value="X:043"/>
+   <property name="Card Number" value="X:042"/>
    <property name="Type" value="Action"/>
    <property name="Text" value="Reveal [THEN] At the beginning of your opponent's turn.  When Revealed [THEN] Choose one of your characters and an enemy. If your chosen character would take attack damage from the chosen enemy, instead it takes half that damage rounded down."/>
    <property name="Rarity" value="Uncommon"/>
   </card>
   <card id="309c561f-4fae-7d90-2176-8118329428a0" name="Scrounging For Energon" size="Small">
-   <property name="Card Number" value="X:044"/>
+   <property name="Card Number" value="X:043"/>
    <property name="Type" value="Action"/>
    <property name="Orange Pips" value="1"/>
    <property name="Green Pips" value="1"/>
@@ -951,14 +951,14 @@
    <property name="Rarity" value="Common"/>
   </card>
   <card id="8a791ba1-25fd-f64e-1729-261becce7086" name="Secret Missive" size="Small">
-   <property name="Card Number" value="X:045"/>
+   <property name="Card Number" value="X:044"/>
    <property name="Type" value="Upgrade - Utility"/>
    <property name="Blue Pips" value="1"/>
    <property name="Text" value="When this is put on a character [THEN] Draw a card. Return a [G] Secret Action from the scrap pile to your hand."/>
    <property name="Rarity" value="Uncommon"/>
   </card>
   <card id="ccce5f35-d6bc-022e-83f2-e68d538be56c" name="Sharkticon Matrix" size="Small">
-   <property name="Card Number" value="X:046"/>
+   <property name="Card Number" value="X:045"/>
    <property name="Type" value="Upgrade - Utility"/>
    <property name="DEF" value="1"/>
    <property name="Orange Pips" value="1"/>
@@ -969,7 +969,7 @@
    <property name="Rarity" value="Rare"/>
   </card>
   <card id="64177e07-68f1-32d4-1440-14bc2e17c304" name="Shield Crash" size="Small">
-   <property name="Card Number" value="X:047"/>
+   <property name="Card Number" value="X:046"/>
    <property name="Type" value="Action"/>
    <property name="Orange Pips" value="1"/>
    <property name="Black Pips" value="1"/>
@@ -978,7 +978,7 @@
    <property name="Rarity" value="Common"/>
   </card>
   <card id="df540d44-68c4-129f-e903-832a4356b8ed" name="Sidecar Artillery" size="Small">
-   <property name="Card Number" value="X:048"/>
+   <property name="Card Number" value="X:047"/>
    <property name="Type" value="Upgrade - Weapon"/>
    <property name="White Pips" value="1"/>
    <property name="Black Pips" value="1"/>
@@ -986,7 +986,7 @@
    <property name="Rarity" value="Uncommon"/>
   </card>
   <card id="a6c8ff5b-2a11-c6b1-83a1-4380f3081976" name="Squid Pro Quo" size="Small">
-   <property name="Card Number" value="X:049"/>
+   <property name="Card Number" value="X:048"/>
    <property name="Type" value="Action"/>
    <property name="Blue Pips" value="1"/>
    <property name="Faction" value="Decepticon"/>
@@ -994,14 +994,14 @@
    <property name="Rarity" value="Uncommon"/>
   </card>
   <card id="81534ef7-d38e-ba0c-9593-b0ef8bfdb3da" name="Stim Shock" size="Small">
-   <property name="Card Number" value="X:050"/>
+   <property name="Card Number" value="X:049"/>
    <property name="Type" value="Action"/>
    <property name="Blue Pips" value="1"/>
    <property name="Text" value="Reveal [THEN] When an enemy attacks.  When Revealed [THEN] Do 1 damage to each enemy that has Bold. Then reduce each enemy’s Bold total by 3 until end of turn."/>
    <property name="Rarity" value="Common"/>
   </card>
   <card id="5ed54a49-0c4f-0c47-cc20-67e00a1bf123" name="Subcontractor Agreement" size="Small">
-   <property name="Card Number" value="X:051"/>
+   <property name="Card Number" value="X:050"/>
    <property name="Type" value="Upgrade - Utility"/>
    <property name="White Pips" value="1"/>
    <property name="Faction" value="Mercenary"/>
@@ -1009,14 +1009,14 @@
    <property name="Rarity" value="Common"/>
   </card>
   <card id="157e4652-4e57-4cd7-adc5-f8e7474f0dcf" name="Tetrinite Micro-Lining" size="Small">
-   <property name="Card Number" value="X:052"/>
+   <property name="Card Number" value="X:051"/>
    <property name="Type" value="Action"/>
    <property name="Blue Pips" value="1"/>
    <property name="Text" value="Reveal [THEN] When one of your characters defends.  When Revealed [THEN] That character gets +2[DEF] until end of battle. If it has an Armor, reduce the attacker's Pierce total by 4 until end of battle."/>
    <property name="Rarity" value="Common"/>
   </card>
   <card id="40589b5b-0035-670f-4053-7364ed38dab6" name="The Dweller Awakens" size="Small">
-   <property name="Card Number" value="X:053"/>
+   <property name="Card Number" value="X:052"/>
    <property name="Type" value="Action"/>
    <property name="Blue Pips" value="1"/>
    <property name="Green Pips" value="1"/>
@@ -1032,7 +1032,7 @@
    <property name="Rarity" value="Rare"/>
   </card>
   <card id="ff36e133-e624-95f4-2134-d4448d5b3df7" name="Touch of Quintessa" size="Small">
-   <property name="Card Number" value="X:056"/>
+   <property name="Card Number" value="X:054"/>
    <property name="Type" value="Action"/>
    <property name="Stars" value="1"/>
    <property name="White Pips" value="1"/>
@@ -1040,6 +1040,21 @@
    <property name="Green Pips" value="1"/>
    <property name="Faction" value="Quintesson"/>
    <property name="Text" value="Reveal [THEN] If one of your [Quintessons] would take enough attack damage to be KO’d.  When Revealed [THEN] Repair damage from that character equal to the number of [G] each player flipped this battle before it takes that attack damage. Then put this card into your KO area."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="5a8db53a-c139-241c-ef73-32947f754f1b" name="Turnabout Snare" size="Small">
+   <property name="Card Number" value="X:055"/>
+   <property name="Type" value="Action"/>
+   <property name="White Pips" value="1"/>
+   <property name="Text" value="Reveal [THEN] When one of your characters defends.  When Revealed [THEN] Swap the attacker's and until end of battle."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="147a59f5-458b-669d-b264-35fa5d5a4056" name="Underbase Fragment" size="Small">
+   <property name="Card Number" value="X:056"/>
+   <property name="Type" value="Upgrade - Utility"/>
+   <property name="White Pips" value="1"/>
+   <property name="Green Pips" value="1"/>
+   <property name="Text" value="Put on [Specialists] only.  When the upgraded character is tapped [THEN] Return a Tech Research or an Upgrade with “Superior” in its name from the scrap pile to your hand."/>
    <property name="Rarity" value="Uncommon"/>
   </card>
   <card id="6198b9c3-dd67-30f1-5688-9153141a4ce7" name="United Against Tyranny" size="Small">
@@ -1050,23 +1065,8 @@
    <property name="Text" value="Choose one of your [Autobots]. It gets +2[ATK] until end of turn.  Choose an enemy [Decepticon]. It gets -2[DEF] until end of turn."/>
    <property name="Rarity" value="Rare"/>
   </card>
-  <card id="5a8db53a-c139-241c-ef73-32947f754f1b" name="Turnabout Snare" size="Small">
-   <property name="Card Number" value="X:057"/>
-   <property name="Type" value="Action"/>
-   <property name="White Pips" value="1"/>
-   <property name="Text" value="Reveal [THEN] When one of your characters defends.  When Revealed [THEN] Swap the attacker's and until end of battle."/>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="147a59f5-458b-669d-b264-35fa5d5a4056" name="Underbase Fragment" size="Small">
-   <property name="Card Number" value="X:058"/>
-   <property name="Type" value="Upgrade - Utility"/>
-   <property name="White Pips" value="1"/>
-   <property name="Green Pips" value="1"/>
-   <property name="Text" value="Put on [Specialists] only.  When the upgraded character is tapped [THEN] Return a Tech Research or an Upgrade with “Superior” in its name from the scrap pile to your hand."/>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
   <card id="fe03a0a5-2046-4b5e-a4cc-e74e2781819d" name="Universal Greeting" size="Small">
-   <property name="Card Number" value="X:059"/>
+   <property name="Card Number" value="X:058"/>
    <property name="Type" value="Action"/>
    <property name="Orange Pips" value="1"/>
    <property name="Faction" value="Autobot"/>
@@ -1074,7 +1074,7 @@
    <property name="Rarity" value="Uncommon"/>
   </card>
   <card id="1a3b437f-82b6-4c27-88f5-832675bc8ab1" name="Unsavory Leftovers" size="Small">
-   <property name="Card Number" value="X:060"/>
+   <property name="Card Number" value="X:059"/>
    <property name="Type" value="Upgrade - Utility"/>
    <property name="Orange Pips" value="1"/>
    <property name="Green Pips" value="1"/>
@@ -1083,7 +1083,7 @@
    <property name="Rarity" value="Common"/>
   </card>
   <card id="8a2c346c-2121-f8e8-a7b7-8797dc280407" name="Vorpal Fangs" size="Small">
-   <property name="Card Number" value="X:061"/>
+   <property name="Card Number" value="X:060"/>
    <property name="Type" value="Upgrade - Weapon"/>
    <property name="ATK" value="1"/>
    <property name="White Pips" value="1"/>
@@ -1092,7 +1092,7 @@
    <property name="Rarity" value="Rare"/>
   </card>
   <card id="a349d356-0337-c652-ef9b-d79198833455" name="What Lies Beyond" size="Small">
-   <property name="Card Number" value="X:062"/>
+   <property name="Card Number" value="X:061"/>
    <property name="Type" value="Action"/>
    <property name="White Pips" value="1"/>
    <property name="Black Pips" value="1"/>
@@ -1101,7 +1101,7 @@
    <property name="Rarity" value="Uncommon"/>
   </card>
   <card id="46fcc6b9-b27f-87d2-3697-b3ce77a338ef" name="Whipped Into Shape" size="Small">
-   <property name="Card Number" value="X:063"/>
+   <property name="Card Number" value="X:062"/>
    <property name="Type" value="Action"/>
    <property name="Orange Pips" value="1"/>
    <property name="Text" value="Reveal [THEN] When one of your [Melee] characters defends.  When Revealed [THEN] Do 1 damage to that character. It gets +4 [DEF] until end of battle."/>

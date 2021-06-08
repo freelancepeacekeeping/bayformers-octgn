@@ -1,584 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="Team Bayformers - Encounter 1" id="ee692b0f-89ac-5475-69eb-4ea2b667ddbf" gameId="f44befce-4d6d-4fb9-a286-9585f36aece9" gameVersion="0.0.0.1" version="0.0.0.1">
  <cards>
-  <card id="891adc06-0d0f-a735-5de5-e233cbf6d9c5" name="Allicon Aronik - Killer Croc" size="Large">
-   <property name="Card Number" value="X:T01"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="9"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="5"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Beast,Melee"/>
-   <property name="Text" value="When this defends [THEN] Plan 1.  When this defends against a non-Specialist character [THEN] The attacker can’t use Pierce this battle."/>
-   <alternate type="bot" name="Allicon Aronik - Killer Croc" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="1"/>
-    <property name="HP" value="9"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Melee"/>
-    <property name="Text" value="When this attacks and you flip at least [B] [THEN] This gets +[ATK] equal to the number of damage counters on him."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="b28d4052-9e92-3efd-e6d5-1d5d31e6eb6d" name="Tow-Line - Signals Engineer" size="Large">
-   <property name="Card Number" value="X:T31"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="11"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="8"/>
-   <property name="Faction" value="Autobot"/>
-   <property name="Traits" value="Melee"/>
-   <property name="Text" value="When you play your first Action this turn [THEN] Plan 1."/>
-   <alternate type="bot" name="Tow-Line - Signals Engineer" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="5"/>
-    <property name="HP" value="11"/>
-    <property name="DEF" value="1"/>
-    <property name="Faction" value="Autobot"/>
-    <property name="Text" value="When this battles and you flip [W][O][B] [THEN] You may put a face-up Action that was played in your played area into your hand after the battle."/>
-   </alternate>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="a81cf422-1744-16a2-3f17-5e2d94fe6170" name="Armada - Herald of Shrouds" size="Large">
-   <property name="Card Number" value="X:T04"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="11"/>
-   <property name="Stars" value="7"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Traits" value="Plane,Spaceship,Specialist"/>
-   <property name="Text" value="This has Stealth while tapped.  This has +1[ATK] and +1[DEF] for each of your untapped [Spaceships]."/>
-   <alternate type="bot" name="Armada - Herald of Shrouds" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="5"/>
-    <property name="HP" value="11"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Traits" value="Ranged"/>
-    <property name="Text" value="When your opponent uses a [TAP] ability of one of their characters, or an opponent's card causes exactly one of their characters to untap [THEN] Untap this or one of your [Spaceships] that has the same number of [STARS] or fewer than the enemy. Then flip this."/>
-   </alternate>
-   <property name="Rarity" value="Rare"/>
-  </card>
-  <card id="00c87051-8a17-e9ce-439c-70bec6017ebd" name="Red Wizard - Ruler of Menonia" size="Large">
-   <property name="Card Number" value="X:T23"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="12"/>
-   <property name="Stars" value="8"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Ranged"/>
-   <property name="Text" value="When one of your characters attacks and you flip at least one card with no battle icons [THEN] After the battle, you may swap a card from your hand for a card you flipped with no battle icons."/>
-   <alternate type="bot" name="Mara-Al-Utha - Usurper of Menonia" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="2"/>
-    <property name="HP" value="12"/>
-    <property name="DEF" value="1"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Ranged"/>
-    <property name="Text" value="When you play a battle card that has exactly 1[STAR] [THEN] Your opponent reveals the top three cards of their deck. Look at your opponent’s hand. You may swap any of the revealed cards with any of the cards from their hand. Put the rest on top of your opponent's deck in any order."/>
-   </alternate>
-   <property name="Rarity" value="Rare"/>
-  </card>
-  <card id="572dcb57-1950-fb1a-da9f-68f521aebe2b" name="Savage Wheelie - Rhymer Climber" size="Large">
-   <property name="Card Number" value="X:T24"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="10"/>
-   <property name="DEF" value="1"/>
-   <property name="Stars" value="6"/>
-   <property name="Faction" value="Autobot"/>
-   <property name="Traits" value="Melee"/>
-   <property name="Text" value="(before the game begins / just like you planned / reveal an Energon Slingshot from your deck / and put it in your hand)  When this defends and both players flip at least [O] → The attacker gets -1[ATK] this battle for each [O] you flipped, up to the number of [O] the opponent flipped."/>
-   <alternate type="bot" name="Savage Wheelie - Rhymer Climber" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="4"/>
-    <property name="HP" value="10"/>
-    <property name="Faction" value="Autobot"/>
-    <property name="Text" value="When this attacks and both players flip at least [B] [THEN] The defender gets -1[DEF] this battle for each [B] you flipped, up to the number of [B] the opponent flipped."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="1164eabc-2001-dc3a-d8cc-3c89d44fcee0" name="Rabblerouser - Aerial Onslaught" size="Large">
-   <property name="Card Number" value="X:T22"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="10"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="6"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Traits" value="Ranged"/>
-   <property name="Text" value="This has +3[ATK] while attacking a [Quintesson].  When you flip to this mode [THEN] Look at the top card of your deck. You may put it into your hand."/>
-   <alternate type="bot" name="Rabblerouser - Aerial Onslaught" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="3"/>
-    <property name="HP" value="10"/>
-    <property name="DEF" value="2"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Traits" value="Ranged"/>
-    <property name="Text" value="This has +3[ATK] while attacking a [Junkion].  When one of your [Planes] attacks [THEN] Plan 1."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="5bc8fb4c-8a4f-13ce-e6a2-5b8c88dce443" name="Deliberata - Judger and The Judged" size="Large">
-   <property name="Card Number" value="X:T12"/>
-   <property name="Type" value="Character - Bot Mode"/>
-   <property name="ATK" value="1"/>
-   <property name="HP" value="16"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="10"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Judge,Specialist"/>
-   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a [G] card from your hand. If you do, reveal the two 2 cards of your deck. If they include at least [G], put both of them into your hand. Otherwise, scrap them. [CHOICE]Scrap cards from your hand equal to 3 minus the number of [Tentacles] on this. Then untap one of your Quintessons that has 4[STARS] or fewer."/>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="4dafbc6e-75c1-99f6-2472-1722a5de6a53" name="Sharkticon Peck - Protoform Pup" size="Small">
-   <property name="Card Number" value="X:T28"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="5"/>
-   <property name="DEF" value="1"/>
-   <property name="Stars" value="4"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Beast,Melee"/>
-   <property name="Text" value="This has Stealth while untapped.  When more than one of your characters untaps [THEN] Return a [O] card from your scrap pile to your hand."/>
-   <alternate type="bot" name="Sharkticon Peck - Protoform Pup" size="Small">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="4"/>
-    <property name="HP" value="5"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Melee"/>
-    <property name="Text" value="When you flip to this mode [THEN] Each of your [Sharkticons] and [Allicons] gets Bold 1 until end of turn."/>
-   </alternate>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="4eb60f83-2230-e3e9-80c0-c435e8dfea0d" name="Sharkticon Biter - Brazen Berserker" size="Small">
-   <property name="Card Number" value="X:T25"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="4"/>
-   <property name="HP" value="4"/>
-   <property name="Stars" value="4"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Beast,Melee"/>
-   <property name="Text" value="When this attacks [THEN] Plan 1.  When this attacks and you flip at least [W][O][G] [THEN] You get an extra attack this turn, but only with one of your [Sharkticons]."/>
-   <alternate type="bot" name="Sharkticon Biter - Brazen Berserker" size="Small">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="4"/>
-    <property name="HP" value="4"/>
-    <property name="DEF" value="1"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Melee"/>
-    <property name="Text" value="When this returns to the battlefield from the KO area [THEN] One of your characters gets Bold 2 until end of turn."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="1a91718f-f476-cb2b-0a2d-bcddd908c8d3" name="Optimus Prime - Dark Awakening" size="Large">
-   <property name="Card Number" value="X:T21"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="4"/>
-   <property name="HP" value="15"/>
-   <property name="DEF" value="3"/>
-   <property name="Stars" value="11"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Leader,Truck,Melee"/>
-   <property name="Text" value="At the start of the game [THEN] Do 2 damage to this.  When you flip to this mode [THEN] Return a [G] card from your scrap pile to hand."/>
-   <alternate type="bot" name="Optimus Prime - Dark Awakening" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="6"/>
-    <property name="HP" value="15"/>
-    <property name="DEF" value="2"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Leader,Melee"/>
-    <property name="Text" value="For each Upgrade on this that has a faction [THEN] Your characters that do not share a faction with that Upgrade get +1[ATK] if it's a Weapon, +1[DEF] if it's an Armor, and +1[HEALTH] if it's a Utility."/>
-   </alternate>
-   <property name="Rarity" value="Rare"/>
-  </card>
-  <card id="9613800b-77a4-2af3-d988-9536abe658b6" name="Mind Control Helmet" size="Small">
-   <property name="Card Number" value="X:T19"/>
-   <property name="Type" value="Character - Head Mode"/>
-   <property name="Stars" value="1"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Text" value="[Head] + When this character battles [THEN] It gets your choice of Tough 1, or Safeguard 3 until end of battle; or Plan 1."/>
-   <alternate type="bot" name="Mind Control Helmet" size="Small">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Text" value="When you deploy this from under a character [THEN] KO this."/>
-   </alternate>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="9ad059a6-c35e-7a5e-7950-76843d77e2dc" name="Shockblast - Galactic Man" size="Large">
-   <property name="Card Number" value="X:T29"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="5"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="4"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Traits" value="Combaticon,Spaceship,Ranged"/>
-   <property name="Text" value="When you flip to this mode [THEN] Each player draws a card.  This can’t flip to its Upgrade side.  When this is KO'd [THEN] Play its Upgrade side."/>
-   <alternate type="upgrade" name="Astro Magnum" size="Large">
-    <property name="Type" value="Character - Weapon Mode"/>
-    <property name="ATK" value="2"/>
-    <property name="HP" value="5"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Text" value="When the upgraded character is a [Mercenary] and does enough attack damage to KO an enemy [THEN] Use this card's Bounty ability if the upgraded character’s current mode does not have any other Bounty abilities.  Bounty [THEN] Do 1 damage to an enemy. Your opponent chooses a card from their hand and scraps it.  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
-   </alternate>
-   <alternate type="bot" name="Shockblast - Galactic Man" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="2"/>
-    <property name="HP" value="5"/>
-    <property name="DEF" value="3"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Traits" value="Specialist"/>
-    <property name="Text" value="When you flip to this mode [THEN] Reveal the top 2 cards of your opponent's deck. You may put any number of them on the bottom of that deck. Put the rest back on top in any order.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
-   </alternate>
-   <property name="Rarity" value="Rare"/>
-  </card>
-  <card id="147742fa-6eb2-f722-ad5e-08840abbb9b5" name="Klementia - Medical Magistrate" size="Large">
-   <property name="Card Number" value="X:T16"/>
-   <property name="Type" value="Character - Bot Mode"/>
-   <property name="ATK" value="1"/>
-   <property name="HP" value="16"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="10"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Judge,Specialist"/>
-   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a card from your hand. If you do, repair 1 damage from a character. If the scrapped card is a [Quintesson] card, instead repair 2 damage from that character. [CHOICE]Any character gets +[ATK] or -[ATK] equal to the number of [Tentacles] on this until end of turn."/>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="74c4c016-09e0-a54d-b3b8-0b49ec3c46a6" name="Lokos" size="Small">
-   <property name="Card Number" value="X:T17"/>
-   <property name="Type" value="Character - Head Mode"/>
-   <property name="HP" value="2"/>
-   <property name="Stars" value="3"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Text" value="[Head] + When this battles [THEN] Plan 2"/>
-   <alternate type="bot" name="Lokos" size="Small">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="3"/>
-    <property name="HP" value="2"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Traits" value="Ranged"/>
-    <property name="Text" value="When this battles [THEN] Plan 2."/>
-   </alternate>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="7bc2f724-ac0f-e281-74be-6e9aa6d96e97" name="Mind Control Collar" size="Small">
-   <property name="Card Number" value="X:T18"/>
-   <property name="Type" value="Character - Head Mode"/>
-   <property name="Stars" value="1"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Text" value="[Head] + When this character battles [THEN] It gets your choice of Bold 1, Pierce 1, or Focus 1 until end of battle."/>
-   <alternate type="bot" name="Mind Control Collar" size="Small">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Text" value="When you deploy this from under a character [THEN] KO this."/>
-   </alternate>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="57eb1d38-ff8c-7555-f66f-552a262aa3ff" name="Nacelle - Eager Aerospace Engineer" size="Large">
-   <property name="Card Number" value="X:T20"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="11"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="7"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Traits" value="Ranged"/>
-   <property name="Text" value="Your [Decepticons] with no printed abilities have +1[ATK] and +1[DEF]."/>
-   <alternate type="bot" name="Nacelle - Eager Aerospace Engineer" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="5"/>
-    <property name="HP" value="11"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Traits" value="Specialist"/>
-    <property name="Text" value="You may play an extra Upgrade each turn, but only on a [Decepticon] with no printed abilities."/>
-   </alternate>
-   <property name="Rarity" value="Rare"/>
-  </card>
-  <card id="0e44a3d5-13df-99f8-2ba6-b869fb6f5fa2" name="Inquisitor Drebzik - Exhaustive Interrogator" size="Large">
-   <property name="Card Number" value="X:T15"/>
-   <property name="Type" value="Character - Bot Mode"/>
-   <property name="ATK" value="1"/>
-   <property name="HP" value="12"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="7"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a [G] card from your hand. If you do, reveal the top 3 cards of your opponent's deck. You may scrap any number of them. Put the rest back on top of their deck in any order. [CHOICE]Choose a [Titan Master] in head mode. Until end of turn, that [Titan Master]’s bonus does not apply to the character it's on."/>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="c1d7009b-da57-50e7-ec7d-648b34c7f61d" name="Gilthor - Chained Amalgamation" size="Large">
-   <property name="Card Number" value="X:T14"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="7"/>
-   <property name="HP" value="17"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="13"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Truck,Ranged"/>
-   <property name="Text" value="This has Bold equal to the number of [Tentacles] you have on the battlefield.  When you flip to this mode [THEN] Do 1 damage to an enemy. You may flip that enemy to another mode."/>
-   <alternate type="bot" name="Gilthor - Chained Amalgamation" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="7"/>
-    <property name="HP" value="17"/>
-    <property name="DEF" value="2"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Text" value="This has +[DEF] equal to the number of [Tentacles] you have on the battlefield.  When this character defends and the attacker flips at least [O][K] [THEN] doesn’t give Pierce this battle."/>
-   </alternate>
-   <property name="Rarity" value="Super Rare"/>
-  </card>
-  <card id="ef851638-2a19-3f81-7695-cebbaec0a8a8" name="General Ghyrik - Grievous Executioner" size="Large">
-   <property name="Card Number" value="X:T13"/>
-   <property name="Type" value="Character - Bot Mode"/>
-   <property name="ATK" value="6"/>
-   <property name="HP" value="14"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="11"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Ranged"/>
-   <property name="Text" value="Enemies have -1[HEALTH] during your turn.  When this attacks [THEN] Choose an enemy character. This gets Bold and Pierce until end of turn equal to the number of battle icons on their Utilities. Then scrap a Utility from that character."/>
-   <property name="Rarity" value="Rare"/>
-  </card>
-  <card id="e0896237-3719-db89-0c0d-6d5690fa146f" name="Decepticon Exhaust - Consumptive Condottiere" size="Large">
-   <property name="Card Number" value="X:T11"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="5"/>
-   <property name="HP" value="13"/>
-   <property name="DEF" value="1"/>
-   <property name="Stars" value="8"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Traits" value="Car,Melee"/>
-   <property name="Text" value="At the start of each turn [THEN] You may do 1 damage to this.  Each turn, this has +1[ATK] and +1[DEF] for each time he has taken damage or has had damage counters moved onto him during that turn."/>
-   <alternate type="bot" name="Decepticon Exhaust - Consumptive Condottiere" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="4"/>
-    <property name="HP" value="13"/>
-    <property name="DEF" value="2"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Traits" value="Melee"/>
-    <property name="Text" value="When this does enough attack damage to KO an enemy [THEN] Use this card's Bounty ability.  Bounty [THEN] Move 1 damage counter from this to another character."/>
-   </alternate>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="deb9f6cf-8d4d-9b95-e511-b897c1174c72" name="Decepticon Doublecrosser - Shield Brothers" size="Small">
-   <property name="Card Number" value="X:T10"/>
-   <property name="Type" value="Character - Bot Mode"/>
-   <property name="ATK" value="4"/>
-   <property name="HP" value="11"/>
-   <property name="DEF" value="1"/>
-   <property name="Stars" value="7"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Traits" value="Melee"/>
-   <property name="Text" value="When an enemy [Titan Master] deploys during your turn while this is untapped [THEN] You get an extra attack this turn, but only with this against that [Titan Master]. This may attack as though that [Titan Master] were tapped."/>
-   <alternate type="upgrade" name="Crossguard 2X" size="Small">
-    <property name="Type" value="Character - Armor Mode"/>
-    <property name="DEF" value="2"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Text" value="After the attacker flips battle cards while this is defending [THEN] Reduce the attacker's Pierce total by this character's [DEF].  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="6f4b06c5-4274-7d3d-288d-e3b272cfeaba" name="Axor - Opportunistic Fencer" size="Large">
-   <property name="Card Number" value="X:T08"/>
-   <property name="Type" value="Character - Bot Mode"/>
-   <property name="ATK" value="2"/>
-   <property name="HP" value="12"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="8"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Traits" value="Ranged"/>
-   <property name="Text" value="When one of your other characters battles [THEN] You may move a Weapon or Armor from them to this after the battle. If that character is a [Mercenary], use one of its Bounty abilities."/>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="8ce17d4e-83b5-ca43-b487-39180a9dd9eb" name="Crashbash - Ocean Terror" size="Large">
-   <property name="Card Number" value="X:T09"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="4"/>
-   <property name="HP" value="10"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="6"/>
-   <property name="Faction" value="Decepticon"/>
-   <property name="Traits" value="Melee"/>
-   <property name="Text" value="When this attacks and flips a number of [O] less than or equal to his [DEF] [THEN] This gets +2[ATK] until end of battle."/>
-   <alternate type="bot" name="Crashbash - Ocean Terror" size="Large">
-    <property name="Type" value="Character - Body Mode"/>
-    <property name="ATK" value="4"/>
-    <property name="HP" value="10"/>
-    <property name="DEF" value="1"/>
-    <property name="Faction" value="Decepticon"/>
-    <property name="Text" value="When this does attack damage to an enemy without KO’ing it and you flipped at least [O][B] [THEN] You may move that damage from that enemy to another enemy."/>
-   </alternate>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="1840874e-a15d-6040-74e0-e5211467a645" name="Autobot Powerglide - Haughty Show-Off" size="Large">
-   <property name="Card Number" value="X:T07"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="2"/>
-   <property name="HP" value="5"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="4"/>
-   <property name="Faction" value="Autobot"/>
-   <property name="Traits" value="Aerialbot,Ranged"/>
-   <property name="Text" value="When this battles and you flip at least one [B] Weapon [THEN] At the end of battle, you may swap a card from your hand with one of the [B] Weapons you flipped this battle.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
-   <alternate type="upgrade" name="S2 Thermal Reciprocator" size="Large">
-    <property name="Type" value="Character - Weapon Mode"/>
-    <property name="ATK" value="2"/>
-    <property name="HP" value="5"/>
-    <property name="Faction" value="Autobot"/>
-    <property name="Text" value="When the upgraded character attacks and the defender flips at least [K][K] [THEN] This has Pierce equal to this Upgrade’s [ATK].  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
-   </alternate>
-   <alternate type="bot" name="Autobot Powerglide - Haughty Show-Off" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="3"/>
-    <property name="HP" value="5"/>
-    <property name="DEF" value="1"/>
-    <property name="Faction" value="Autobot"/>
-    <property name="Traits" value="Ranged"/>
-    <property name="Text" value="If 1 or more damage counters would be moved onto one of your other characters from an enemy [THEN] Move those counters onto this instead. Then, if this is not KO'd, repair 1 damage from it.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
-   </alternate>
-   <property name="Rarity" value="Uncommon"/>
-  </card>
-  <card id="191b7b9b-3225-7861-deaa-fe4a40624e44" name="Autobot Pipes - Idiosyncratic Collector" size="Large">
-   <property name="Card Number" value="X:T06"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="10"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="6"/>
-   <property name="Faction" value="Autobot"/>
-   <property name="Traits" value="Melee"/>
-   <property name="Text" value="If one of your [Boats] or characters with two alt modes would take 2 or more attack damage [THEN] Instead you may have this take 2 of that damage and your other character take the rest."/>
-   <alternate type="bot" name="Autobot Pipes - Idiosyncratic Collector" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="4"/>
-    <property name="HP" value="10"/>
-    <property name="Faction" value="Autobot"/>
-    <property name="Text" value="When an Upgrade with one or more battle icons is scrapped from one of your other characters [THEN] You may reveal the top card of your deck. If you do and it has the same number of battle icons as the scrapped Upgrade, you may put the scrapped Upgrade on this."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="2f9f5c97-5801-4ee9-1700-d6b64102e5a2" name="Sharkticon Gnaw - Gluttonous Gourmand" size="Small">
-   <property name="Card Number" value="X:T27"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="4"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="4"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Beast,Melee"/>
-   <property name="Text" value="This has +1[HEALTH] for each card under him.  When you flip to this mode [THEN] You may draw a card."/>
-   <alternate type="bot" name="Sharkticon Gnaw - Gluttonous Gourmand" size="Small">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="4"/>
-    <property name="HP" value="4"/>
-    <property name="DEF" value="1"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Melee"/>
-    <property name="Text" value="This has +1[HEALTH] for each card under him.  When you flip to this mode [THEN] You may reveal a non-[G] card from your hand and put it under this."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="d817db48-3501-a3c3-2c9d-1bec4a4f9944" name="Sharkticon Chomp - Craving Carnivore" size="Small">
-   <property name="Card Number" value="X:T26"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="4"/>
-   <property name="HP" value="6"/>
-   <property name="DEF" value="1"/>
-   <property name="Stars" value="4"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Beast,Melee"/>
-   <property name="Text" value="Focus 1  When this attacks and you flip at least [K][G] [THEN] You may untap one of your [Quintesson] [Specialists] with a bot mode."/>
-   <alternate type="bot" name="Sharkticon Chomp - Craving Carnivore" size="Small">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="3"/>
-    <property name="HP" value="6"/>
-    <property name="DEF" value="2"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Melee"/>
-    <property name="Text" value="When you flip to this mode [THEN] You may play an [G] Upgrade."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="397ba7f3-14b4-113c-6fc0-15b74604f3b2" name="Slitherfang - Poisonous Protection" size="Small">
-   <property name="Card Number" value="X:T30"/>
-   <property name="Type" value="Character - Bot Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="9"/>
-   <property name="DEF" value="1"/>
-   <property name="Stars" value="6"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Beast,Melee"/>
-   <property name="Text" value="When this attacks [THEN] Do 1 damage to the defender after the battle."/>
-   <alternate type="upgrade" name="UD-04 Globo Guard" size="Small">
-    <property name="Type" value="Character - Armor Mode"/>
-    <property name="DEF" value="2"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Text" value="At the start of your turn [THEN] Do 1 damage to the upgraded character unless it is a [Quintesson].  When the upgraded character defends [THEN] Do 1 damage to the attacker after the battle.  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="7a4e93f6-9288-3049-be3b-c7e7fa876afb" name="Autobot Countdown - Aerospace Commander" size="Small">
-   <property name="Card Number" value="X:T05"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="6"/>
-   <property name="DEF" value="1"/>
-   <property name="Stars" value="4"/>
-   <property name="Faction" value="Autobot"/>
-   <property name="Traits" value="Car,Specialist"/>
-   <property name="Text" value="This has Stealth while untapped.  When this, your [Guardian], or your Omega Supreme takes 2 or more attack damage without being KO’d [THEN] Move 1 damage counter from it to the attacker."/>
-   <alternate type="bot" name="Autobot Countdown - Aerospace Commander" size="Small">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="1"/>
-    <property name="HP" value="6"/>
-    <property name="DEF" value="1"/>
-    <property name="Faction" value="Autobot"/>
-    <property name="Traits" value="Specialist"/>
-    <property name="Text" value="This has +[ATK] equal to the lowest [ATK] from among your Omega Supremes or Guardians in your KO area.  This has +[DEF] equal to the lowest from among your Omega Supremes or Guardians in your KO area."/>
-   </alternate>
-   <property name="Rarity" value="Rare"/>
-  </card>
-  <card id="631a5d4f-9f1b-20ef-ee4d-413bff1442d1" name="Allicon Eyuk - Bog Scavenger" size="Large">
-   <property name="Card Number" value="X:T02"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="3"/>
-   <property name="HP" value="10"/>
-   <property name="DEF" value="2"/>
-   <property name="Stars" value="5"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Beast,Melee"/>
-   <property name="Text" value="Tough 1  When you flip to this mode [THEN] Return a [G] or [K] Upgrade from your scrap pile to hand."/>
-   <alternate type="bot" name="Allicon Eyuk - Bog Scavenger" size="Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="3"/>
-    <property name="HP" value="10"/>
-    <property name="DEF" value="1"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Melee"/>
-    <property name="Text" value="When this attacks a non-[Melee] character and you flip at least [B] [THEN] This gets +1[ATK] until end of battle for each [B] you flipped."/>
-   </alternate>
-   <property name="Rarity" value="Common"/>
-  </card>
-  <card id="517e5c35-c29a-d338-8bfa-fc9f4b22e2bf" name="Alpha Sentinel - Dark Guardian Relic" size="Extra Large">
-   <property name="Card Number" value="X:T03"/>
-   <property name="Type" value="Character - Alt Mode"/>
-   <property name="ATK" value="4"/>
-   <property name="HP" value="23"/>
-   <property name="DEF" value="3"/>
-   <property name="Stars" value="16"/>
-   <property name="Faction" value="Quintesson"/>
-   <property name="Traits" value="Spaceship,Tank,Ranged"/>
-   <property name="Text" value="At the start of each turn, if all untapped enemies have 10[STARS] or more total [THEN] Each of your characters get +1[DEF] until end of turn for each of your other characters."/>
-   <alternate type="bot" name="Alpha Sentinel - Dark Guardian Relic" size="Extra Large">
-    <property name="Type" value="Character - Bot Mode"/>
-    <property name="ATK" value="8"/>
-    <property name="HP" value="23"/>
-    <property name="Faction" value="Quintesson"/>
-    <property name="Traits" value="Melee"/>
-    <property name="Text" value="When one of your characters takes attack damage, choose one [THEN] [CHOICE]You may do 1 damage to this. If you do, do 1 damage to the attacker after the battle. [CHOICE]You may do 1 damage to this. If you do, repair 1 damage from one of your other characters after the battle."/>
-   </alternate>
-   <property name="Rarity" value="Rare"/>
-  </card>
   <card id="735221a7-aa42-c160-182a-e2b714074c0f" name="All-Out Attack" size="Small">
    <property name="Card Number" value="X:001"/>
    <property name="Type" value="Action"/>
@@ -1401,6 +823,584 @@
    <alternate type="back" name="Verdant Aegis" size="Small">
     <property name="Type" value="Stratagem - back"/>
     <property name="ATK" value="1"/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="891adc06-0d0f-a735-5de5-e233cbf6d9c5" name="Allicon Aronik - Killer Croc" size="Large">
+   <property name="Card Number" value="X:T01"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="9"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="5"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="When this defends [THEN] Plan 1.  When this defends against a non-Specialist character [THEN] The attacker can’t use Pierce this battle."/>
+   <alternate type="bot" name="Allicon Aronik - Killer Croc" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="1"/>
+    <property name="HP" value="9"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When this attacks and you flip at least [B] [THEN] This gets +[ATK] equal to the number of damage counters on him."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="631a5d4f-9f1b-20ef-ee4d-413bff1442d1" name="Allicon Eyuk - Bog Scavenger" size="Large">
+   <property name="Card Number" value="X:T02"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="5"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="Tough 1  When you flip to this mode [THEN] Return a [G] or [K] Upgrade from your scrap pile to hand."/>
+   <alternate type="bot" name="Allicon Eyuk - Bog Scavenger" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="10"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When this attacks a non-[Melee] character and you flip at least [B] [THEN] This gets +1[ATK] until end of battle for each [B] you flipped."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="517e5c35-c29a-d338-8bfa-fc9f4b22e2bf" name="Alpha Sentinel - Dark Guardian Relic" size="Extra Large">
+   <property name="Card Number" value="X:T03"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="23"/>
+   <property name="DEF" value="3"/>
+   <property name="Stars" value="16"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Spaceship,Tank,Ranged"/>
+   <property name="Text" value="At the start of each turn, if all untapped enemies have 10[STARS] or more total [THEN] Each of your characters get +1[DEF] until end of turn for each of your other characters."/>
+   <alternate type="bot" name="Alpha Sentinel - Dark Guardian Relic" size="Extra Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="8"/>
+    <property name="HP" value="23"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When one of your characters takes attack damage, choose one [THEN] [CHOICE]You may do 1 damage to this. If you do, do 1 damage to the attacker after the battle. [CHOICE]You may do 1 damage to this. If you do, repair 1 damage from one of your other characters after the battle."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="a81cf422-1744-16a2-3f17-5e2d94fe6170" name="Armada - Herald of Shrouds" size="Large">
+   <property name="Card Number" value="X:T04"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="11"/>
+   <property name="Stars" value="7"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Plane,Spaceship,Specialist"/>
+   <property name="Text" value="This has Stealth while tapped.  This has +1[ATK] and +1[DEF] for each of your untapped [Spaceships]."/>
+   <alternate type="bot" name="Armada - Herald of Shrouds" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="5"/>
+    <property name="HP" value="11"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="When your opponent uses a [TAP] ability of one of their characters, or an opponent's card causes exactly one of their characters to untap [THEN] Untap this or one of your [Spaceships] that has the same number of [STARS] or fewer than the enemy. Then flip this."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="7a4e93f6-9288-3049-be3b-c7e7fa876afb" name="Autobot Countdown - Aerospace Commander" size="Small">
+   <property name="Card Number" value="X:T05"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="6"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Car,Specialist"/>
+   <property name="Text" value="This has Stealth while untapped.  When this, your [Guardian], or your Omega Supreme takes 2 or more attack damage without being KO’d [THEN] Move 1 damage counter from it to the attacker."/>
+   <alternate type="bot" name="Autobot Countdown - Aerospace Commander" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="1"/>
+    <property name="HP" value="6"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Traits" value="Specialist"/>
+    <property name="Text" value="This has +[ATK] equal to the lowest [ATK] from among your Omega Supremes or Guardians in your KO area.  This has +[DEF] equal to the lowest from among your Omega Supremes or Guardians in your KO area."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="191b7b9b-3225-7861-deaa-fe4a40624e44" name="Autobot Pipes - Idiosyncratic Collector" size="Large">
+   <property name="Card Number" value="X:T06"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="If one of your [Boats] or characters with two alt modes would take 2 or more attack damage [THEN] Instead you may have this take 2 of that damage and your other character take the rest."/>
+   <alternate type="bot" name="Autobot Pipes - Idiosyncratic Collector" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="10"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Text" value="When an Upgrade with one or more battle icons is scrapped from one of your other characters [THEN] You may reveal the top card of your deck. If you do and it has the same number of battle icons as the scrapped Upgrade, you may put the scrapped Upgrade on this."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="1840874e-a15d-6040-74e0-e5211467a645" name="Autobot Powerglide - Haughty Show-Off" size="Large">
+   <property name="Card Number" value="X:T07"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="2"/>
+   <property name="HP" value="5"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Aerialbot,Ranged"/>
+   <property name="Text" value="When this battles and you flip at least one [B] Weapon [THEN] At the end of battle, you may swap a card from your hand with one of the [B] Weapons you flipped this battle.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
+   <alternate type="upgrade" name="S2 Thermal Reciprocator" size="Large">
+    <property name="Type" value="Character - Weapon Mode"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="5"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Text" value="When the upgraded character attacks and the defender flips at least [K][K] [THEN] This has Pierce equal to this Upgrade’s [ATK].  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
+   </alternate>
+   <alternate type="bot" name="Autobot Powerglide - Haughty Show-Off" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="5"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="If 1 or more damage counters would be moved onto one of your other characters from an enemy [THEN] Move those counters onto this instead. Then, if this is not KO'd, repair 1 damage from it.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="6f4b06c5-4274-7d3d-288d-e3b272cfeaba" name="Axor - Opportunistic Fencer" size="Large">
+   <property name="Card Number" value="X:T08"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="2"/>
+   <property name="HP" value="12"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="8"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="When one of your other characters battles [THEN] You may move a Weapon or Armor from them to this after the battle. If that character is a [Mercenary], use one of its Bounty abilities."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="8ce17d4e-83b5-ca43-b487-39180a9dd9eb" name="Crashbash - Ocean Terror" size="Large">
+   <property name="Card Number" value="X:T09"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="When this attacks and flips a number of [O] less than or equal to his [DEF] [THEN] This gets +2[ATK] until end of battle."/>
+   <alternate type="bot" name="Crashbash - Ocean Terror" size="Large">
+    <property name="Type" value="Character - Body Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="10"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Text" value="When this does attack damage to an enemy without KO’ing it and you flipped at least [O][B] [THEN] You may move that damage from that enemy to another enemy."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="deb9f6cf-8d4d-9b95-e511-b897c1174c72" name="Decepticon Doublecrosser - Shield Brothers" size="Small">
+   <property name="Card Number" value="X:T10"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="11"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="7"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="When an enemy [Titan Master] deploys during your turn while this is untapped [THEN] You get an extra attack this turn, but only with this against that [Titan Master]. This may attack as though that [Titan Master] were tapped."/>
+   <alternate type="upgrade" name="Crossguard 2X" size="Small">
+    <property name="Type" value="Character - Armor Mode"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Text" value="After the attacker flips battle cards while this is defending [THEN] Reduce the attacker's Pierce total by this character's [DEF].  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="e0896237-3719-db89-0c0d-6d5690fa146f" name="Decepticon Exhaust - Consumptive Condottiere" size="Large">
+   <property name="Card Number" value="X:T11"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="5"/>
+   <property name="HP" value="13"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="8"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Car,Melee"/>
+   <property name="Text" value="At the start of each turn [THEN] You may do 1 damage to this.  Each turn, this has +1[ATK] and +1[DEF] for each time he has taken damage or has had damage counters moved onto him during that turn."/>
+   <alternate type="bot" name="Decepticon Exhaust - Consumptive Condottiere" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="13"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When this does enough attack damage to KO an enemy [THEN] Use this card's Bounty ability.  Bounty [THEN] Move 1 damage counter from this to another character."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="5bc8fb4c-8a4f-13ce-e6a2-5b8c88dce443" name="Deliberata - Judger and The Judged" size="Large">
+   <property name="Card Number" value="X:T12"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="16"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="10"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Judge,Specialist"/>
+   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a [G] card from your hand. If you do, reveal the two 2 cards of your deck. If they include at least [G], put both of them into your hand. Otherwise, scrap them. [CHOICE]Scrap cards from your hand equal to 3 minus the number of [Tentacles] on this. Then untap one of your Quintessons that has 4[STARS] or fewer."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="ef851638-2a19-3f81-7695-cebbaec0a8a8" name="General Ghyrik - Grievous Executioner" size="Large">
+   <property name="Card Number" value="X:T13"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="6"/>
+   <property name="HP" value="14"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="11"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="Enemies have -1[HEALTH] during your turn.  When this attacks [THEN] Choose an enemy character. This gets Bold and Pierce until end of turn equal to the number of battle icons on their Utilities. Then scrap a Utility from that character."/>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="c1d7009b-da57-50e7-ec7d-648b34c7f61d" name="Gilthor - Chained Amalgamation" size="Large">
+   <property name="Card Number" value="X:T14"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="7"/>
+   <property name="HP" value="17"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="13"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Truck,Ranged"/>
+   <property name="Text" value="This has Bold equal to the number of [Tentacles] you have on the battlefield.  When you flip to this mode [THEN] Do 1 damage to an enemy. You may flip that enemy to another mode."/>
+   <alternate type="bot" name="Gilthor - Chained Amalgamation" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="7"/>
+    <property name="HP" value="17"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Text" value="This has +[DEF] equal to the number of [Tentacles] you have on the battlefield.  When this character defends and the attacker flips at least [O][K] [THEN] doesn’t give Pierce this battle."/>
+   </alternate>
+   <property name="Rarity" value="Super Rare"/>
+  </card>
+  <card id="0e44a3d5-13df-99f8-2ba6-b869fb6f5fa2" name="Inquisitor Drebzik - Exhaustive Interrogator" size="Large">
+   <property name="Card Number" value="X:T15"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="12"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="7"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a [G] card from your hand. If you do, reveal the top 3 cards of your opponent's deck. You may scrap any number of them. Put the rest back on top of their deck in any order. [CHOICE]Choose a [Titan Master] in head mode. Until end of turn, that [Titan Master]’s bonus does not apply to the character it's on."/>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="147742fa-6eb2-f722-ad5e-08840abbb9b5" name="Klementia - Medical Magistrate" size="Large">
+   <property name="Card Number" value="X:T16"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="1"/>
+   <property name="HP" value="16"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="10"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Judge,Specialist"/>
+   <property name="Text" value="[TAP] Choose one [CHOICE]Scrap a card from your hand. If you do, repair 1 damage from a character. If the scrapped card is a [Quintesson] card, instead repair 2 damage from that character. [CHOICE]Any character gets +[ATK] or -[ATK] equal to the number of [Tentacles] on this until end of turn."/>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="74c4c016-09e0-a54d-b3b8-0b49ec3c46a6" name="Lokos" size="Small">
+   <property name="Card Number" value="X:T17"/>
+   <property name="Type" value="Character - Head Mode"/>
+   <property name="HP" value="2"/>
+   <property name="Stars" value="3"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Text" value="[Head] + When this battles [THEN] Plan 2"/>
+   <alternate type="bot" name="Lokos" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="2"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="When this battles [THEN] Plan 2."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="7bc2f724-ac0f-e281-74be-6e9aa6d96e97" name="Mind Control Collar" size="Small">
+   <property name="Card Number" value="X:T18"/>
+   <property name="Type" value="Character - Head Mode"/>
+   <property name="Stars" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="[Head] + When this character battles [THEN] It gets your choice of Bold 1, Pierce 1, or Focus 1 until end of battle."/>
+   <alternate type="bot" name="Mind Control Collar" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Text" value="When you deploy this from under a character [THEN] KO this."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="9613800b-77a4-2af3-d988-9536abe658b6" name="Mind Control Helmet" size="Small">
+   <property name="Card Number" value="X:T19"/>
+   <property name="Type" value="Character - Head Mode"/>
+   <property name="Stars" value="1"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Text" value="[Head] + When this character battles [THEN] It gets your choice of Tough 1, or Safeguard 3 until end of battle; or Plan 1."/>
+   <alternate type="bot" name="Mind Control Helmet" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Text" value="When you deploy this from under a character [THEN] KO this."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="57eb1d38-ff8c-7555-f66f-552a262aa3ff" name="Nacelle - Eager Aerospace Engineer" size="Large">
+   <property name="Card Number" value="X:T20"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="11"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="7"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="Your [Decepticons] with no printed abilities have +1[ATK] and +1[DEF]."/>
+   <alternate type="bot" name="Nacelle - Eager Aerospace Engineer" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="5"/>
+    <property name="HP" value="11"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Specialist"/>
+    <property name="Text" value="You may play an extra Upgrade each turn, but only on a [Decepticon] with no printed abilities."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="1a91718f-f476-cb2b-0a2d-bcddd908c8d3" name="Optimus Prime - Dark Awakening" size="Large">
+   <property name="Card Number" value="X:T21"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="15"/>
+   <property name="DEF" value="3"/>
+   <property name="Stars" value="11"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Leader,Truck,Melee"/>
+   <property name="Text" value="At the start of the game [THEN] Do 2 damage to this.  When you flip to this mode [THEN] Return a [G] card from your scrap pile to hand."/>
+   <alternate type="bot" name="Optimus Prime - Dark Awakening" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="6"/>
+    <property name="HP" value="15"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Leader,Melee"/>
+    <property name="Text" value="For each Upgrade on this that has a faction [THEN] Your characters that do not share a faction with that Upgrade get +1[ATK] if it's a Weapon, +1[DEF] if it's an Armor, and +1[HEALTH] if it's a Utility."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="1164eabc-2001-dc3a-d8cc-3c89d44fcee0" name="Rabblerouser - Aerial Onslaught" size="Large">
+   <property name="Card Number" value="X:T22"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="This has +3[ATK] while attacking a [Quintesson].  When you flip to this mode [THEN] Look at the top card of your deck. You may put it into your hand."/>
+   <alternate type="bot" name="Rabblerouser - Aerial Onslaught" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="10"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="This has +3[ATK] while attacking a [Junkion].  When one of your [Planes] attacks [THEN] Plan 1."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="00c87051-8a17-e9ce-439c-70bec6017ebd" name="Red Wizard - Ruler of Menonia" size="Large">
+   <property name="Card Number" value="X:T23"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="12"/>
+   <property name="Stars" value="8"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Ranged"/>
+   <property name="Text" value="When one of your characters attacks and you flip at least one card with no battle icons [THEN] After the battle, you may swap a card from your hand for a card you flipped with no battle icons."/>
+   <alternate type="bot" name="Mara-Al-Utha - Usurper of Menonia" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="12"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Ranged"/>
+    <property name="Text" value="When you play a battle card that has exactly 1[STAR] [THEN] Your opponent reveals the top three cards of their deck. Look at your opponent’s hand. You may swap any of the revealed cards with any of the cards from their hand. Put the rest on top of your opponent's deck in any order."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="572dcb57-1950-fb1a-da9f-68f521aebe2b" name="Savage Wheelie - Rhymer Climber" size="Large">
+   <property name="Card Number" value="X:T24"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="10"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="(before the game begins / just like you planned / reveal an Energon Slingshot from your deck / and put it in your hand)  When this defends and both players flip at least [O] → The attacker gets -1[ATK] this battle for each [O] you flipped, up to the number of [O] the opponent flipped."/>
+   <alternate type="bot" name="Savage Wheelie - Rhymer Climber" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="10"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Text" value="When this attacks and both players flip at least [B] [THEN] The defender gets -1[DEF] this battle for each [B] you flipped, up to the number of [B] the opponent flipped."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="4eb60f83-2230-e3e9-80c0-c435e8dfea0d" name="Sharkticon Biter - Brazen Berserker" size="Small">
+   <property name="Card Number" value="X:T25"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="4"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="When this attacks [THEN] Plan 1.  When this attacks and you flip at least [W][O][G] [THEN] You get an extra attack this turn, but only with one of your [Sharkticons]."/>
+   <alternate type="bot" name="Sharkticon Biter - Brazen Berserker" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="4"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When this returns to the battlefield from the KO area [THEN] One of your characters gets Bold 2 until end of turn."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="d817db48-3501-a3c3-2c9d-1bec4a4f9944" name="Sharkticon Chomp - Craving Carnivore" size="Small">
+   <property name="Card Number" value="X:T26"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="4"/>
+   <property name="HP" value="6"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="Focus 1  When this attacks and you flip at least [K][G] [THEN] You may untap one of your [Quintesson] [Specialists] with a bot mode."/>
+   <alternate type="bot" name="Sharkticon Chomp - Craving Carnivore" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="3"/>
+    <property name="HP" value="6"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When you flip to this mode [THEN] You may play an [G] Upgrade."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="2f9f5c97-5801-4ee9-1700-d6b64102e5a2" name="Sharkticon Gnaw - Gluttonous Gourmand" size="Small">
+   <property name="Card Number" value="X:T27"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="4"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="This has +1[HEALTH] for each card under him.  When you flip to this mode [THEN] You may draw a card."/>
+   <alternate type="bot" name="Sharkticon Gnaw - Gluttonous Gourmand" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="4"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="This has +1[HEALTH] for each card under him.  When you flip to this mode [THEN] You may reveal a non-[G] card from your hand and put it under this."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="4dafbc6e-75c1-99f6-2472-1722a5de6a53" name="Sharkticon Peck - Protoform Pup" size="Small">
+   <property name="Card Number" value="X:T28"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="5"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="This has Stealth while untapped.  When more than one of your characters untaps [THEN] Return a [O] card from your scrap pile to your hand."/>
+   <alternate type="bot" name="Sharkticon Peck - Protoform Pup" size="Small">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="4"/>
+    <property name="HP" value="5"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Traits" value="Melee"/>
+    <property name="Text" value="When you flip to this mode [THEN] Each of your [Sharkticons] and [Allicons] gets Bold 1 until end of turn."/>
+   </alternate>
+   <property name="Rarity" value="Uncommon"/>
+  </card>
+  <card id="9ad059a6-c35e-7a5e-7950-76843d77e2dc" name="Shockblast - Galactic Man" size="Large">
+   <property name="Card Number" value="X:T29"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="5"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="4"/>
+   <property name="Faction" value="Decepticon"/>
+   <property name="Traits" value="Combaticon,Spaceship,Ranged"/>
+   <property name="Text" value="When you flip to this mode [THEN] Each player draws a card.  This can’t flip to its Upgrade side.  When this is KO'd [THEN] Play its Upgrade side."/>
+   <alternate type="upgrade" name="Astro Magnum" size="Large">
+    <property name="Type" value="Character - Weapon Mode"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="5"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Text" value="When the upgraded character is a [Mercenary] and does enough attack damage to KO an enemy [THEN] Use this card's Bounty ability if the upgraded character’s current mode does not have any other Bounty abilities.  Bounty [THEN] Do 1 damage to an enemy. Your opponent chooses a card from their hand and scraps it.  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
+   </alternate>
+   <alternate type="bot" name="Shockblast - Galactic Man" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="2"/>
+    <property name="HP" value="5"/>
+    <property name="DEF" value="3"/>
+    <property name="Faction" value="Decepticon"/>
+    <property name="Traits" value="Specialist"/>
+    <property name="Text" value="When you flip to this mode [THEN] Reveal the top 2 cards of your opponent's deck. You may put any number of them on the bottom of that deck. Put the rest back on top in any order.  This can’t flip to its Upgrade side.  When this is KO’d [THEN] Play its Upgrade side."/>
+   </alternate>
+   <property name="Rarity" value="Rare"/>
+  </card>
+  <card id="397ba7f3-14b4-113c-6fc0-15b74604f3b2" name="Slitherfang - Poisonous Protection" size="Small">
+   <property name="Card Number" value="X:T30"/>
+   <property name="Type" value="Character - Bot Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="9"/>
+   <property name="DEF" value="1"/>
+   <property name="Stars" value="6"/>
+   <property name="Faction" value="Quintesson"/>
+   <property name="Traits" value="Beast,Melee"/>
+   <property name="Text" value="When this attacks [THEN] Do 1 damage to the defender after the battle."/>
+   <alternate type="upgrade" name="UD-04 Globo Guard" size="Small">
+    <property name="Type" value="Character - Armor Mode"/>
+    <property name="DEF" value="2"/>
+    <property name="Faction" value="Quintesson"/>
+    <property name="Text" value="At the start of your turn [THEN] Do 1 damage to the upgraded character unless it is a [Quintesson].  When the upgraded character defends [THEN] Do 1 damage to the attacker after the battle.  If this would leave the battlefield [THEN] Put it into your KO area instead."/>
+   </alternate>
+   <property name="Rarity" value="Common"/>
+  </card>
+  <card id="b28d4052-9e92-3efd-e6d5-1d5d31e6eb6d" name="Tow-Line - Signals Engineer" size="Large">
+   <property name="Card Number" value="X:T31"/>
+   <property name="Type" value="Character - Alt Mode"/>
+   <property name="ATK" value="3"/>
+   <property name="HP" value="11"/>
+   <property name="DEF" value="2"/>
+   <property name="Stars" value="8"/>
+   <property name="Faction" value="Autobot"/>
+   <property name="Traits" value="Melee"/>
+   <property name="Text" value="When you play your first Action this turn [THEN] Plan 1."/>
+   <alternate type="bot" name="Tow-Line - Signals Engineer" size="Large">
+    <property name="Type" value="Character - Bot Mode"/>
+    <property name="ATK" value="5"/>
+    <property name="HP" value="11"/>
+    <property name="DEF" value="1"/>
+    <property name="Faction" value="Autobot"/>
+    <property name="Text" value="When this battles and you flip [W][O][B] [THEN] You may put a face-up Action that was played in your played area into your hand after the battle."/>
    </alternate>
    <property name="Rarity" value="Uncommon"/>
   </card>

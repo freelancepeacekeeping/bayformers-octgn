@@ -1,3 +1,6 @@
+# ARCHIVED
+This project is archived in favour of https://teletraan1.net/octgn
+
 # bayformers-octgn
 
 This is the first OCTGN fan set generated from Teletraan data. 
